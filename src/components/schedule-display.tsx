@@ -1,10 +1,11 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useTheme } from "next-themes";
 import { getGroupFromPRN, formatDate } from "@/lib/utils";
 import type { ClassDetails, Timetable } from "@/types";
 import { ClassCard } from "@/components/class-card";
-import { BookMarked, CalendarIcon, Loader2, LogOut, UserCircle } from "lucide-react";
+import { BookMarked, CalendarIcon, Loader2, LogOut, Moon, Sun, UserCircle } from "lucide-react";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Button } from "@/components/ui/button";
 import {
@@ -14,6 +15,10 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
+  DropdownMenuSub,
+  DropdownMenuSubTrigger,
+  DropdownMenuPortal,
+  DropdownMenuSubContent
 } from "@/components/ui/dropdown-menu";
 import { Card, CardContent } from "@/components/ui/card";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
@@ -29,6 +34,7 @@ export function ScheduleDisplay({ prn, onChangePrn }: ScheduleDisplayProps) {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [selectedDate, setSelectedDate] = useState<Date>(new Date());
+  const { setTheme } = useTheme();
   
   const group = getGroupFromPRN(prn);
 
@@ -61,7 +67,7 @@ export function ScheduleDisplay({ prn, onChangePrn }: ScheduleDisplayProps) {
       <header className="flex items-center justify-between border-b pb-4">
         <div className="flex items-center gap-3">
           <BookMarked className="h-8 w-8 text-primary" />
-          <h1 className="font-headline text-2xl font-bold tracking-tight">
+          <h1 className="text-2xl font-bold tracking-tight">
             Cal.so
           </h1>
         </div>
@@ -76,6 +82,27 @@ export function ScheduleDisplay({ prn, onChangePrn }: ScheduleDisplayProps) {
             <DropdownMenuLabel>
               PRN: {prn}
             </DropdownMenuLabel>
+            <DropdownMenuSeparator />
+            <DropdownMenuSub>
+              <DropdownMenuSubTrigger>
+                <Sun className="mr-2 h-4 w-4 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
+                <Moon className="absolute mr-2 h-4 w-4 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+                <span>Toggle theme</span>
+              </DropdownMenuSubTrigger>
+              <DropdownMenuPortal>
+                <DropdownMenuSubContent>
+                  <DropdownMenuItem onClick={() => setTheme("light")}>
+                    Light
+                  </DropdownMenuItem>
+                  <DropdownMenuItem onClick={() => setTheme("dark")}>
+                    Dark
+                  </DropdownMenuItem>
+                  <DropdownMenuItem onClick={() => setTheme("system")}>
+                    System
+                  </DropdownMenuItem>
+                </DropdownMenuSubContent>
+              </DropdownMenuPortal>
+            </DropdownMenuSub>
             <DropdownMenuSeparator />
             <DropdownMenuItem onSelect={onChangePrn}>
               <LogOut className="mr-2 h-4 w-4" />

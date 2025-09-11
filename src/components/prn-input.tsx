@@ -43,12 +43,12 @@ export function PrnInput({ onPrnSubmit }: PrnInputProps) {
 
   return (
     <div className="flex min-h-[80vh] items-center justify-center">
-      <Card className="w-full max-w-md border-0 bg-transparent shadow-none sm:border sm:bg-card sm:shadow-lg">
+      <Card className="w-full max-w-md border-0 bg-transparent sm:bg-card sm:border sm:shadow-lg">
         <CardHeader className="text-center">
           <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 text-primary">
             <BookMarked className="h-8 w-8" />
           </div>
-          <CardTitle className="font-headline text-3xl font-bold">Welcome to Cal.so</CardTitle>
+          <CardTitle className="text-3xl font-bold">Welcome to Cal.so</CardTitle>
           <CardDescription>Your daily schedule, simplified.</CardDescription>
         </CardHeader>
         <CardContent>

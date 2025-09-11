@@ -11,9 +11,9 @@ type ClassCardProps = {
 
 export function ClassCard({ classInfo }: ClassCardProps) {
   return (
-    <Card className="overflow-hidden shadow-sm transition-shadow hover:shadow-md">
+    <Card className="overflow-hidden shadow-sm transition-shadow hover:shadow-md bg-card">
       <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">
-        <CardTitle className="flex items-center gap-3 text-base font-semibold text-foreground">
+        <CardTitle className="flex items-center gap-3 text-base font-semibold text-card-foreground">
           <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-primary">
             <Book className="h-5 w-5" />
           </div>
