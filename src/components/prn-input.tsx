@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button";
 import {
   Form,
   FormControl,
+  FormDescription,
   FormField,
   FormItem,
   FormLabel,
@@ -18,23 +19,26 @@ import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const formSchema = z.object({
-  prn: z.string().min(1, "Please enter your PRN to continue."),
+  prn_suffix: z.string().length(4, "Please enter the last 4 digits of your PRN."),
 });
 
 type PrnInputProps = {
   onPrnSubmit: (prn: string) => void;
 };
 
+const PRN_PREFIX = "2025080";
+
 export function PrnInput({ onPrnSubmit }: PrnInputProps) {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
-      prn: "",
+      prn_suffix: "",
     },
   });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    onPrnSubmit(values.prn);
+    const fullPrn = `${PRN_PREFIX}${values.prn_suffix}`;
+    onPrnSubmit(fullPrn);
   }
 
   return (
@@ -52,13 +56,19 @@ export function PrnInput({ onPrnSubmit }: PrnInputProps) {
             <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
               <FormField
                 control={form.control}
-                name="prn"
+                name="prn_suffix"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>Student PRN (Personal Registration Number)</FormLabel>
+                    <FormLabel>Last 4 Digits of your PRN</FormLabel>
                     <FormControl>
-                      <Input placeholder="e.g., 2022BTECS00123" {...field} />
+                      <div className="flex items-center">
+                        <span className="mr-2 text-muted-foreground">{PRN_PREFIX}</span>
+                        <Input placeholder="e.g., 1234" {...field} maxLength={4} />
+                      </div>
                     </FormControl>
+                    <FormDescription>
+                      Enter the last 4 digits of your Personal Registration Number.
+                    </FormDescription>
                     <FormMessage />
                   </FormItem>
                 )}
