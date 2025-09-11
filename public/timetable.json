@@ -3,3214 +3,1094 @@
     "0": {},
     "1": {
       "A1": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Dr. Sharma",
-          "room": "LH-101"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Engineering Physics",
-          "teacher": "Prof. Gupta",
-          "room": "LH-101"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Dr. Verma",
-          "room": "LH-101"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "PPS Lab",
-          "teacher": "Prof. Singh",
-          "room": "CompLab-1"
-        }
+        { "time": "08:30 - 10:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Dr. Gaurav S", "room": "325" },
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "11:30 - 12:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "566" },
+        { "time": "12:30 - 13:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "13:30 - 14:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" }
       ],
       "A2": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Physics Lab",
-          "teacher": "Prof. Kumar",
-          "room": "PhysicsLab-A"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Dr. Patel",
-          "room": "LH-102"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Dr. Reddy",
-          "room": "LH-102"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Communication Skills",
-          "teacher": "Prof. Joshi",
-          "room": "LH-102"
-        }
+        { "time": "08:30 - 10:30", "subject": "Data Structures using C Lab", "teacher": "Dr. Laxmi P", "room": "353" },
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "11:30 - 12:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "566" },
+        { "time": "12:30 - 13:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "13:30 - 14:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" }
+      ],
+      "A3": [
+        { "time": "08:30 - 10:30", "subject": "Fundamentals of Web Technology Lab", "teacher": "Ms. Ritu Jadhav", "room": "CC" },
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "11:30 - 12:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "566" },
+        { "time": "12:30 - 13:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "13:30 - 14:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" }
       ],
       "B1": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Basic Electronics Engineering",
-          "teacher": "Dr. Iyer",
-          "room": "LH-201"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Prof. Menon",
-          "room": "LH-201"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Physics",
-          "teacher": "Dr. Sharma",
-          "room": "LH-202"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "Chemistry Lab",
-          "teacher": "Dr. Verma",
-          "room": "ChemLab-B"
-        }
+        { "time": "08:30 - 09:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "566" },
+        { "time": "09:30 - 10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "10:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Dr. Gaurav S", "room": "325" },
+        { "time": "12:30 - 13:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "13:30 - 14:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "566" }
       ],
       "B2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Dr. Patel",
-          "room": "LH-203"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Prof. Kumar",
-          "room": "LH-203"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Communication Skills",
-          "teacher": "Prof. Joshi",
-          "room": "LH-203"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "PPS Lab",
-          "teacher": "Prof. Singh",
-          "room": "CompLab-2"
-        }
+        { "time": "08:30 - 09:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "566" },
+        { "time": "09:30 - 10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "10:30 - 12:30", "subject": "Data Structures using C Lab", "teacher": "Dr. Laxmi P", "room": "353" },
+        { "time": "12:30 - 13:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "13:30 - 14:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "566" }
+      ],
+      "B3": [
+        { "time": "08:30 - 09:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "566" },
+        { "time": "09:30 - 10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "10:30 - 12:30", "subject": "Fundamentals of Web Technology Lab", "teacher": "Ms. Ritu Jadhav", "room": "CC" },
+        { "time": "12:30 - 13:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "13:30 - 14:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "566" }
       ],
       "C1": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Dr. Sharma",
-          "room": "LH-101"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Engineering Physics",
-          "teacher": "Prof. Gupta",
-          "room": "LH-101"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Dr. Verma",
-          "room": "LH-101"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "PPS Lab",
-          "teacher": "Prof. Joshi",
-          "room": "CompLab-2"
-        }
+        { "time": "08:30 - 09:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "575" },
+        { "time": "09:30 - 10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" },
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" },
+        { "time": "11:30 - 12:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "12:30 - 14:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Dr. Dipika P", "room": "325" }
       ],
       "C2": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "PPS Lab",
-          "teacher": "Prof. Joshi",
-          "room": "CompLab-2"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Communication Skills",
-          "teacher": "Prof. Gupta",
-          "room": "LH-102"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Dr. Sharma",
-          "room": "LH-101"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Engineering Physics",
-          "teacher": "Prof. Gupta",
-          "room": "LH-101"
-        }
+        { "time": "08:30 - 09:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "575" },
+        { "time": "09:30 - 10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" },
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" },
+        { "time": "11:30 - 12:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "12:30 - 14:30", "subject": "Data Structures using C Lab", "teacher": "Mrs. Shobhana P", "room": "353" }
+      ],
+      "C3": [
+        { "time": "08:30 - 09:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "575" },
+        { "time": "09:30 - 10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" },
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" },
+        { "time": "11:30 - 12:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "12:30 - 14:30", "subject": "Fundamentals of Web Technology Lab", "teacher": "Ms. Shraddha J", "room": "CC" }
       ],
       "D1": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Basic Electronics Engineering",
-          "teacher": "Dr. Verma",
-          "room": "LH-301"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Prof. Singh",
-          "room": "LH-301"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Physics",
-          "teacher": "Dr. Patel",
-          "room": "LH-302"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "Chemistry Lab",
-          "teacher": "Dr. Reddy",
-          "room": "ChemLab-A"
-        }
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" },
+        { "time": "12:30 - 13:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" },
+        { "time": "13:30 - 14:30", "subject": "Data Structures using C", "teacher": "Mrs. Shobhana P", "room": "575" },
+        { "time": "14:30 - 16:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Dr. Dipika P", "room": "325" }
       ],
       "D2": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Chemistry Lab",
-          "teacher": "Dr. Reddy",
-          "room": "ChemLab-A"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Communication Skills",
-          "teacher": "Dr. Sharma",
-          "room": "LH-303"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Basic Electronics Engineering",
-          "teacher": "Dr. Verma",
-          "room": "LH-301"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Prof. Singh",
-          "room": "LH-301"
-        }
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" },
+        { "time": "12:30 - 13:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" },
+        { "time": "13:30 - 14:30", "subject": "Data Structures using C", "teacher": "Mrs. Shobhana P", "room": "575" },
+        { "time": "14:30 - 16:30", "subject": "Data Structures using C Lab", "teacher": "Mrs. Shobhana P", "room": "353" }
+      ],
+      "D3": [
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" },
+        { "time": "12:30 - 13:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" },
+        { "time": "13:30 - 14:30", "subject": "Data Structures using C", "teacher": "Mrs. Shobhana P", "room": "575" },
+        { "time": "14:30 - 16:30", "subject": "Fundamentals of Web Technology Lab", "teacher": "Ms. Shraddha J", "room": "CC" }
       ],
       "E1": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Prof. Gupta",
-          "room": "LH-103"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Engineering Physics",
-          "teacher": "Dr. Verma",
-          "room": "LH-103"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Prof. Singh",
-          "room": "LH-103"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "PPS Lab",
-          "teacher": "Dr. Patel",
-          "room": "CompLab-1"
-        }
+        { "time": "08:30 - 09:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "523" },
+        { "time": "09:30 - 10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" },
+        { "time": "11:30 - 12:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" }
       ],
       "E2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Prof. Joshi",
-          "room": "LH-104"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Dr. Reddy",
-          "room": "LH-104"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Communication Skills",
-          "teacher": "Dr. Iyer",
-          "room": "LH-104"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "Physics Lab",
-          "teacher": "Prof. Kumar",
-          "room": "PhysicsLab-A"
-        }
+        { "time": "08:30 - 09:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "523" },
+        { "time": "09:30 - 10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" },
+        { "time": "11:30 - 12:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" }
+      ],
+      "E3": [
+        { "time": "08:30 - 09:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "523" },
+        { "time": "09:30 - 10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" },
+        { "time": "11:30 - 12:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" }
       ],
       "F1": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Basic Electronics Engineering",
-          "teacher": "Prof. Menon",
-          "room": "LH-201"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Dr. Sharma",
-          "room": "LH-201"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Physics",
-          "teacher": "Prof. Gupta",
-          "room": "LH-202"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "Chemistry Lab",
-          "teacher": "Prof. Singh",
-          "room": "ChemLab-B"
-        }
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "523" },
+        { "time": "12:30 - 13:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "13:30 - 14:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" }
       ],
       "F2": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Chemistry Lab",
-          "teacher": "Prof. Singh",
-          "room": "ChemLab-B"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Communication Skills",
-          "teacher": "Prof. Joshi",
-          "room": "LH-203"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Basic Electronics Engineering",
-          "teacher": "Prof. Menon",
-          "room": "LH-201"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Dr. Sharma",
-          "room": "LH-201"
-        }
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "523" },
+        { "time": "12:30 - 13:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "13:30 - 14:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" }
+      ],
+      "F3": [
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "523" },
+        { "time": "12:30 - 13:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "13:30 - 14:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" }
       ],
       "G1": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Dr. Iyer",
-          "room": "LH-301"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Engineering Physics",
-          "teacher": "Prof. Menon",
-          "room": "LH-301"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Dr. Sharma",
-          "room": "LH-301"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "PPS Lab",
-          "teacher": "Prof. Gupta",
-          "room": "CompLab-2"
-        }
+        { "time": "08:30 - 09:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "09:30 - 10:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Anagha Ekbote", "room": "409" },
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Ekta T", "room": "409" },
+        { "time": "11:30 - 12:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" }
       ],
       "G2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Dr. Patel",
-          "room": "LH-302"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Prof. Singh",
-          "room": "LH-302"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Communication Skills",
-          "teacher": "Prof. Kumar",
-          "room": "LH-302"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "Physics Lab",
-          "teacher": "Dr. Verma",
-          "room": "PhysicsLab-B"
-        }
+        { "time": "08:30 - 09:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "09:30 - 10:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Anagha Ekbote", "room": "409" },
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Ekta T", "room": "409" },
+        { "time": "11:30 - 12:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" }
+      ],
+      "G3": [
+        { "time": "08:30 - 09:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "09:30 - 10:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Anagha Ekbote", "room": "409" },
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Ekta T", "room": "409" },
+        { "time": "11:30 - 12:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" }
       ],
       "H1": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Basic Electronics Engineering",
-          "teacher": "Dr. Reddy",
-          "room": "LH-105"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Prof. Joshi",
-          "room": "LH-105"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Physics",
-          "teacher": "Dr. Iyer",
-          "room": "LH-106"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "Chemistry Lab",
-          "teacher": "Dr. Sharma",
-          "room": "ChemLab-A"
-        }
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "12:30 - 13:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Anagha Ekbote", "room": "409" },
+        { "time": "13:30 - 14:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Ekta T", "room": "409" }
       ],
       "H2": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Chemistry Lab",
-          "teacher": "Dr. Sharma",
-          "room": "ChemLab-A"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Communication Skills",
-          "teacher": "Dr. Patel",
-          "room": "LH-107"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Basic Electronics Engineering",
-          "teacher": "Dr. Reddy",
-          "room": "LH-105"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Prof. Joshi",
-          "room": "LH-105"
-        }
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "12:30 - 13:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Anagha Ekbote", "room": "409" },
+        { "time": "13:30 - 14:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Ekta T", "room": "409" }
+      ],
+      "H3": [
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "12:30 - 13:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Anagha Ekbote", "room": "409" },
+        { "time": "13:30 - 14:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Ekta T", "room": "409" }
       ],
       "I1": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Prof. Kumar",
-          "room": "LH-205"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Engineering Physics",
-          "teacher": "Dr. Reddy",
-          "room": "LH-205"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Prof. Joshi",
-          "room": "LH-205"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "PPS Lab",
-          "teacher": "Dr. Iyer",
-          "room": "CompLab-1"
-        }
+        { "time": "08:30 - 10:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Ms. Mrunmayee R", "room": "324" },
+        { "time": "10:30 - 11:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "313" },
+        { "time": "11:30 - 12:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "12:30 - 13:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "13:30 - 14:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Abhijeet Aher", "room": "313" }
       ],
       "I2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Prof. Gupta",
-          "room": "LH-206"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Dr. Sharma",
-          "room": "LH-206"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Communication Skills",
-          "teacher": "Dr. Verma",
-          "room": "LH-206"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "Physics Lab",
-          "teacher": "Prof. Menon",
-          "room": "PhysicsLab-A"
-        }
+        { "time": "08:30 - 10:30", "subject": "Data Structures using C Lab", "teacher": "Mrs. Anagha Ekbote", "room": "346" },
+        { "time": "10:30 - 11:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "313" },
+        { "time": "11:30 - 12:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "12:30 - 13:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "13:30 - 14:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Abhijeet Aher", "room": "313" }
+      ],
+      "I3": [
+        { "time": "08:30 - 10:30", "subject": "Fundamentals of Web Technology Lab", "teacher": "Ms. Ritu Jadhav", "room": "421" },
+        { "time": "10:30 - 11:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "313" },
+        { "time": "11:30 - 12:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "12:30 - 13:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "13:30 - 14:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Abhijeet Aher", "room": "313" }
       ],
       "J1": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Basic Electronics Engineering",
-          "teacher": "Prof. Singh",
-          "room": "LH-305"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Dr. Patel",
-          "room": "LH-305"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Physics",
-          "teacher": "Prof. Kumar",
-          "room": "LH-306"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "Chemistry Lab",
-          "teacher": "Prof. Joshi",
-          "room": "ChemLab-B"
-        }
+        { "time": "08:30 - 09:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Abhijeet Aher", "room": "313" },
+        { "time": "09:30 - 10:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "10:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Ms. Mrunmayee R", "room": "324" }
       ],
       "J2": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Chemistry Lab",
-          "teacher": "Prof. Joshi",
-          "room": "ChemLab-B"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Communication Skills",
-          "teacher": "Prof. Gupta",
-          "room": "LH-307"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Basic Electronics Engineering",
-          "teacher": "Prof. Singh",
-          "room": "LH-305"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Dr. Patel",
-          "room": "LH-305"
-        }
+        { "time": "08:30 - 09:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Abhijeet Aher", "room": "313" },
+        { "time": "09:30 - 10:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "10:30 - 12:30", "subject": "Data Structures using C Lab", "teacher": "Mrs. Anagha Ekbote", "room": "346" }
+      ],
+      "J3": [
+        { "time": "08:30 - 09:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Abhijeet Aher", "room": "313" },
+        { "time": "09:30 - 10:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "10:30 - 12:30", "subject": "Fundamentals of Web Technology Lab", "teacher": "Ms. Ritu Jadhav", "room": "421" }
       ]
     },
     "2": {
       "A1": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Dr. Reddy",
-          "room": "LH-102"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Dr. Patel",
-          "room": "LH-102"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Communication Skills",
-          "teacher": "Prof. Joshi",
-          "room": "LH-102"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "Physics Lab",
-          "teacher": "Prof. Kumar",
-          "room": "PhysicsLab-A"
-        }
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "11:30 - 12:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "12:30 - 13:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "566" },
+        { "time": "13:30 - 14:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "14:30 - 16:30", "subject": "Fundamentals of Web Technology Lab", "teacher": "Ms. Ritu Jadhav", "room": "CC" }
       ],
       "A2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Dr. Sharma",
-          "room": "LH-101"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Engineering Physics",
-          "teacher": "Prof. Gupta",
-          "room": "LH-101"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Dr. Verma",
-          "room": "LH-101"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "PPS Lab",
-          "teacher": "Prof. Singh",
-          "room": "CompLab-1"
-        }
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "11:30 - 12:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "12:30 - 13:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "566" },
+        { "time": "13:30 - 14:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "14:30 - 16:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Dr. Gaurav S", "room": "325" }
+      ],
+      "A3": [
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "11:30 - 12:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "12:30 - 13:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "566" },
+        { "time": "13:30 - 14:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "14:30 - 16:30", "subject": "Data Structures using C Lab", "teacher": "Dr. Laxmi P", "room": "353" }
       ],
       "B1": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "PPS Lab",
-          "teacher": "Prof. Singh",
-          "room": "CompLab-2"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Prof. Kumar",
-          "room": "LH-203"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Prof. Menon",
-          "room": "LH-201"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Basic Electronics Engineering",
-          "teacher": "Dr. Iyer",
-          "room": "LH-201"
-        }
+        { "time": "08:30 - 10:30", "subject": "Fundamentals of Web Technology Lab", "teacher": "Ms. Ritu Jadhav", "room": "CC" },
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "11:30 - 12:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "566" },
+        { "time": "12:30 - 13:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "13:30 - 14:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "566" }
       ],
       "B2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Basic Electronics Engineering",
-          "teacher": "Dr. Iyer",
-          "room": "LH-201"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Prof. Menon",
-          "room": "LH-201"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Physics",
-          "teacher": "Dr. Sharma",
-          "room": "LH-202"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "Chemistry Lab",
-          "teacher": "Dr. Verma",
-          "room": "ChemLab-B"
-        }
+        { "time": "08:30 - 10:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Dr. Gaurav S", "room": "325" },
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "11:30 - 12:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "566" },
+        { "time": "12:30 - 13:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "13:30 - 14:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "566" }
+      ],
+      "B3": [
+        { "time": "08:30 - 10:30", "subject": "Data Structures using C Lab", "teacher": "Dr. Laxmi P", "room": "353" },
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "11:30 - 12:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "566" },
+        { "time": "12:30 - 13:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "13:30 - 14:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "566" }
       ],
       "C1": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Physics Lab",
-          "teacher": "Dr. Iyer",
-          "room": "PhysicsLab-B"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Prof. Menon",
-          "room": "LH-102"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Dr. Sharma",
-          "room": "LH-102"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Communication Skills",
-          "teacher": "Prof. Gupta",
-          "room": "LH-102"
-        }
+        { "time": "08:30 - 09:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "575" },
+        { "time": "09:30 - 10:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "575" },
+        { "time": "10:30 - 12:30", "subject": "Fundamentals of Web Technology Lab", "teacher": "Ms. Shraddha J", "room": "CC" },
+        { "time": "12:30 - 13:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "13:30 - 14:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" }
       ],
       "C2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Dr. Sharma",
-          "room": "LH-102"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Prof. Menon",
-          "room": "LH-102"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Dr. Verma",
-          "room": "LH-101"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "Physics Lab",
-          "teacher": "Dr. Iyer",
-          "room": "PhysicsLab-B"
-        }
+        { "time": "08:30 - 09:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "575" },
+        { "time": "09:30 - 10:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "575" },
+        { "time": "10:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Dr. Dipika P", "room": "325" },
+        { "time": "12:30 - 13:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "13:30 - 14:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" }
+      ],
+      "C3": [
+        { "time": "08:30 - 09:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "575" },
+        { "time": "09:30 - 10:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "575" },
+        { "time": "10:30 - 12:30", "subject": "Data Structures using C Lab", "teacher": "Dr. Laxmi P", "room": "353" },
+        { "time": "12:30 - 13:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "13:30 - 14:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" }
       ],
       "D1": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Prof. Joshi",
-          "room": "LH-303"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Prof. Menon",
-          "room": "LH-303"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Communication Skills",
-          "teacher": "Dr. Sharma",
-          "room": "LH-303"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "PPS Lab",
-          "teacher": "Dr. Iyer",
-          "room": "CompLab-1"
-        }
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" },
+        { "time": "11:30 - 12:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "575" },
+        { "time": "12:30 - 14:30", "subject": "Data Structures using C Lab", "teacher": "Dr. Laxmi P", "room": "353" }
       ],
       "D2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Physics",
-          "teacher": "Dr. Patel",
-          "room": "LH-302"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Prof. Kumar",
-          "room": "LH-302"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Prof. Joshi",
-          "room": "LH-303"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "Workshop Practice",
-          "teacher": "Dr. Iyer",
-          "room": "Workshop-A"
-        }
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" },
+        { "time": "11:30 - 12:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "575" },
+        { "time": "12:30 - 14:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Dr. Dipika P", "room": "325" }
+      ],
+      "D3": [
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" },
+        { "time": "11:30 - 12:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "575" },
+        { "time": "12:30 - 14:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Dr. Dipika P", "room": "325" }
       ],
       "E1": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Physics Lab",
-          "teacher": "Prof. Kumar",
-          "room": "PhysicsLab-A"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Dr. Reddy",
-          "room": "LH-104"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Prof. Joshi",
-          "room": "LH-104"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Communication Skills",
-          "teacher": "Dr. Iyer",
-          "room": "LH-104"
-        }
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "12:30 - 13:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" },
+        { "time": "13:30 - 14:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "523" },
+        { "time": "14:30 - 15:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "523" }
       ],
       "E2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Prof. Gupta",
-          "room": "LH-103"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Engineering Physics",
-          "teacher": "Dr. Verma",
-          "room": "LH-103"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Prof. Singh",
-          "room": "LH-103"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "PPS Lab",
-          "teacher": "Dr. Patel",
-          "room": "CompLab-1"
-        }
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "12:30 - 13:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" },
+        { "time": "13:30 - 14:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "523" },
+        { "time": "14:30 - 15:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "523" }
+      ],
+      "E3": [
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "12:30 - 13:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" },
+        { "time": "13:30 - 14:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "523" },
+        { "time": "14:30 - 15:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "523" }
       ],
       "F1": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Dr. Patel",
-          "room": "LH-203"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Dr. Reddy",
-          "room": "LH-203"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Communication Skills",
-          "teacher": "Prof. Joshi",
-          "room": "LH-203"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "PPS Lab",
-          "teacher": "Dr. Iyer",
-          "room": "CompLab-2"
-        }
+        { "time": "08:30 - 09:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "523" },
+        { "time": "09:30 - 10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" }
       ],
       "F2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Physics",
-          "teacher": "Prof. Gupta",
-          "room": "LH-202"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Dr. Verma",
-          "room": "LH-202"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Dr. Patel",
-          "room": "LH-203"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "Workshop Practice",
-          "teacher": "Mr. Mishra",
-          "room": "Workshop-A"
-        }
+        { "time": "08:30 - 09:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "523" },
+        { "time": "09:30 - 10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" }
+      ],
+      "F3": [
+        { "time": "08:30 - 09:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "523" },
+        { "time": "09:30 - 10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" }
       ],
       "G1": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Physics Lab",
-          "teacher": "Dr. Verma",
-          "room": "PhysicsLab-B"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Prof. Singh",
-          "room": "LH-302"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Dr. Patel",
-          "room": "LH-302"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Communication Skills",
-          "teacher": "Prof. Kumar",
-          "room": "LH-302"
-        }
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "409" },
+        { "time": "12:30 - 13:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "13:30 - 14:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Anagha Ekbote", "room": "409" }
       ],
       "G2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Dr. Iyer",
-          "room": "LH-301"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Engineering Physics",
-          "teacher": "Prof. Menon",
-          "room": "LH-301"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Dr. Sharma",
-          "room": "LH-301"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "PPS Lab",
-          "teacher": "Prof. Gupta",
-          "room": "CompLab-2"
-        }
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "409" },
+        { "time": "12:30 - 13:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "13:30 - 14:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Anagha Ekbote", "room": "409" }
+      ],
+      "G3": [
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "409" },
+        { "time": "12:30 - 13:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "13:30 - 14:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Anagha Ekbote", "room": "409" }
       ],
       "H1": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Prof. Gupta",
-          "room": "LH-107"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Prof. Singh",
-          "room": "LH-107"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Communication Skills",
-          "teacher": "Dr. Patel",
-          "room": "LH-107"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "PPS Lab",
-          "teacher": "Dr. Verma",
-          "room": "CompLab-1"
-        }
+        { "time": "08:30 - 09:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "09:30 - 10:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Anagha Ekbote", "room": "409" },
+        { "time": "10:30 - 11:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "409" }
       ],
       "H2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Physics",
-          "teacher": "Dr. Iyer",
-          "room": "LH-106"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Prof. Menon",
-          "room": "LH-106"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Prof. Gupta",
-          "room": "LH-107"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "Workshop Practice",
-          "teacher": "Dr. Verma",
-          "room": "Workshop-B"
-        }
+        { "time": "08:30 - 09:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "09:30 - 10:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Anagha Ekbote", "room": "409" },
+        { "time": "10:30 - 11:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "409" }
+      ],
+      "H3": [
+        { "time": "08:30 - 09:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "09:30 - 10:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Anagha Ekbote", "room": "409" },
+        { "time": "10:30 - 11:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "409" }
       ],
       "I1": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Physics Lab",
-          "teacher": "Prof. Menon",
-          "room": "PhysicsLab-A"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Dr. Sharma",
-          "room": "LH-206"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Prof. Gupta",
-          "room": "LH-206"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Communication Skills",
-          "teacher": "Dr. Verma",
-          "room": "LH-206"
-        }
+        { "time": "08:30 - 09:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "313" },
+        { "time": "09:30 - 10:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "10:30 - 12:30", "subject": "Data Structures using C Lab", "teacher": "Dr. Laxmi P", "room": "346" },
+        { "time": "12:30 - 13:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "313" }
       ],
       "I2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Prof. Kumar",
-          "room": "LH-205"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Engineering Physics",
-          "teacher": "Dr. Reddy",
-          "room": "LH-205"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Prof. Joshi",
-          "room": "LH-205"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "PPS Lab",
-          "teacher": "Dr. Iyer",
-          "room": "CompLab-1"
-        }
+        { "time": "08:30 - 09:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "313" },
+        { "time": "09:30 - 10:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "10:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Ms. Mrunmayee R", "room": "324" },
+        { "time": "12:30 - 13:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "313" }
+      ],
+      "I3": [
+        { "time": "08:30 - 09:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "313" },
+        { "time": "09:30 - 10:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "10:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Ms. Mrunmayee R", "room": "324" },
+        { "time": "12:30 - 13:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "313" }
       ],
       "J1": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Dr. Iyer",
-          "room": "LH-307"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Dr. Sharma",
-          "room": "LH-307"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Communication Skills",
-          "teacher": "Prof. Gupta",
-          "room": "LH-307"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "PPS Lab",
-          "teacher": "Prof. Menon",
-          "room": "CompLab-2"
-        }
+        { "time": "08:30 - 10:30", "subject": "Data Structures using C Lab", "teacher": "Dr. Laxmi P", "room": "346" },
+        { "time": "10:30 - 11:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "313" },
+        { "time": "11:30 - 12:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" }
       ],
       "J2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Physics",
-          "teacher": "Prof. Kumar",
-          "room": "LH-306"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Dr. Reddy",
-          "room": "LH-306"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Dr. Iyer",
-          "room": "LH-307"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "Workshop Practice",
-          "teacher": "Mr. Sharma",
-          "room": "Workshop-B"
-        }
+        { "time": "08:30 - 10:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Ms. Mrunmayee R", "room": "324" },
+        { "time": "10:30 - 11:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "313" },
+        { "time": "11:30 - 12:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" }
+      ],
+      "J3": [
+        { "time": "08:30 - 10:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Ms. Mrunmayee R", "room": "324" },
+        { "time": "10:30 - 11:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "313" },
+        { "time": "11:30 - 12:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" }
       ]
     },
     "3": {
       "A1": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Workshop Practice",
-          "teacher": "Mr. Mishra",
-          "room": "Workshop-A"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Dr. Sharma",
-          "room": "LH-101"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Engineering Physics",
-          "teacher": "Prof. Gupta",
-          "room": "LH-101"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Dr. Verma",
-          "room": "LH-101"
-        }
+        { "time": "08:30 - 09:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "566" },
+        { "time": "09:30 - 10:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "566" },
+        { "time": "10:30 - 11:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "11:30 - 12:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "12:30 - 14:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Dr. Gaurav S", "room": "325" }
       ],
       "A2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Dr. Patel",
-          "room": "LH-102"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Dr. Reddy",
-          "room": "LH-102"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Dr. Sharma",
-          "room": "LH-101"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "Workshop Practice",
-          "teacher": "Mr. Mishra",
-          "room": "Workshop-A"
-        }
+        { "time": "08:30 - 09:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "566" },
+        { "time": "09:30 - 10:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "566" },
+        { "time": "10:30 - 11:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "11:30 - 12:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "12:30 - 14:30", "subject": "Data Structures using C Lab", "teacher": "Dr. Laxmi P", "room": "353" }
+      ],
+      "A3": [
+        { "time": "08:30 - 09:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "566" },
+        { "time": "09:30 - 10:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "566" },
+        { "time": "10:30 - 11:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "11:30 - 12:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "12:30 - 14:30", "subject": "Fundamentals of Web Technology Lab", "teacher": "Ms. Ritu Jadhav", "room": "CC" }
       ],
       "B1": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Physics",
-          "teacher": "Dr. Sharma",
-          "room": "LH-202"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Prof. Gupta",
-          "room": "LH-202"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Dr. Patel",
-          "room": "LH-203"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "Physics Lab",
-          "teacher": "Dr. Reddy",
-          "room": "PhysicsLab-B"
-        }
+        { "time": "12:30 - 13:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "13:30 - 14:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "14:30 - 16:30", "subject": "Data Structures using C Lab", "teacher": "Dr. Laxmi P", "room": "353" }
       ],
       "B2": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Workshop Practice",
-          "teacher": "Mr. Mishra",
-          "room": "Workshop-B"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Prof. Menon",
-          "room": "LH-201"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Engineering Physics",
-          "teacher": "Dr. Sharma",
-          "room": "LH-202"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Basic Electronics Engineering",
-          "teacher": "Dr. Iyer",
-          "room": "LH-201"
-        }
+        { "time": "12:30 - 13:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "13:30 - 14:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "14:30 - 16:30", "subject": "Fundamentals of Web Technology Lab", "teacher": "Ms. Ritu Jadhav", "room": "CC" }
+      ],
+      "B3": [
+        { "time": "12:30 - 13:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "13:30 - 14:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "14:30 - 16:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Dr. Gaurav S", "room": "325" }
       ],
       "C1": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Physics",
-          "teacher": "Prof. Gupta",
-          "room": "LH-101"
-        },
-        {
-          "time": "10:00 - 12:00",
-          "subject": "Workshop Practice",
-          "teacher": "Mr. Mishra",
-          "room": "Workshop-A"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Dr. Sharma",
-          "room": "LH-101"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Dr. Verma",
-          "room": "LH-101"
-        }
+        { "time": "08:30 - 10:30", "subject": "Data Structures using C Lab", "teacher": "Dr. Laxmi P", "room": "353" },
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" },
+        { "time": "11:30 - 12:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "575" }
       ],
       "C2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Dr. Sharma",
-          "room": "LH-101"
-        },
-        {
-          "time": "10:00 - 12:00",
-          "subject": "Chemistry Lab",
-          "teacher": "Dr. Reddy",
-          "room": "ChemLab-A"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Engineering Physics",
-          "teacher": "Prof. Gupta",
-          "room": "LH-101"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Communication Skills",
-          "teacher": "Prof. Gupta",
-          "room": "LH-102"
-        }
+        { "time": "08:30 - 10:30", "subject": "Fundamentals of Web Technology Lab", "teacher": "Ms. Ritu Jadhav", "room": "CC" },
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" },
+        { "time": "11:30 - 12:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "575" }
+      ],
+      "C3": [
+        { "time": "08:30 - 10:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Dr. Dipika P", "room": "325" },
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" },
+        { "time": "11:30 - 12:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "575" }
       ],
       "D1": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Physics Lab",
-          "teacher": "Prof. Kumar",
-          "room": "PhysicsLab-A"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Prof. Kumar",
-          "room": "LH-302"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Prof. Singh",
-          "room": "LH-301"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Basic Electronics Engineering",
-          "teacher": "Dr. Verma",
-          "room": "LH-301"
-        }
+        { "time": "08:30 - 09:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "575" },
+        { "time": "09:30 - 10:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "575" },
+        { "time": "10:30 - 12:30", "subject": "Fundamentals of Web Technology Lab", "teacher": "Ms. Shraddha J", "room": "CC" },
+        { "time": "12:30 - 13:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "13:30 - 14:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "575" }
       ],
       "D2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Prof. Menon",
-          "room": "LH-303"
-        },
-        {
-          "time": "10:00 - 12:00",
-          "subject": "PPS Lab",
-          "teacher": "Dr. Iyer",
-          "room": "CompLab-1"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Prof. Singh",
-          "room": "LH-301"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Basic Electronics Engineering",
-          "teacher": "Dr. Verma",
-          "room": "LH-301"
-        }
+        { "time": "08:30 - 09:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "575" },
+        { "time": "09:30 - 10:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "575" },
+        { "time": "10:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Dr. Dipika P", "room": "325" },
+        { "time": "12:30 - 13:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "13:30 - 14:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "575" }
+      ],
+      "D3": [
+        { "time": "08:30 - 09:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "575" },
+        { "time": "09:30 - 10:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "575" },
+        { "time": "10:30 - 12:30", "subject": "Data Structures using C Lab", "teacher": "Dr. Laxmi P", "room": "353" },
+        { "time": "12:30 - 13:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "13:30 - 14:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "575" }
       ],
       "E1": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Workshop Practice",
-          "teacher": "Mr. Mishra",
-          "room": "Workshop-B"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Prof. Gupta",
-          "room": "LH-103"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Engineering Physics",
-          "teacher": "Dr. Verma",
-          "room": "LH-103"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Prof. Singh",
-          "room": "LH-103"
-        }
+        { "time": "08:30 - 09:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "523" },
+        { "time": "09:30 - 10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "10:30 - 11:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "523" }
       ],
       "E2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Dr. Reddy",
-          "room": "LH-104"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Prof. Joshi",
-          "room": "LH-104"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Prof. Gupta",
-          "room": "LH-103"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "Workshop Practice",
-          "teacher": "Mr. Mishra",
-          "room": "Workshop-B"
-        }
+        { "time": "08:30 - 09:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "523" },
+        { "time": "09:30 - 10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "10:30 - 11:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "523" }
+      ],
+      "E3": [
+        { "time": "08:30 - 09:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "523" },
+        { "time": "09:30 - 10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "10:30 - 11:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "523" }
       ],
       "F1": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Physics Lab",
-          "teacher": "Dr. Verma",
-          "room": "PhysicsLab-B"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Dr. Verma",
-          "room": "LH-202"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Dr. Sharma",
-          "room": "LH-201"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Basic Electronics Engineering",
-          "teacher": "Prof. Menon",
-          "room": "LH-201"
-        }
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "523" },
+        { "time": "12:30 - 13:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "523" },
+        { "time": "13:30 - 14:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "14:30 - 15:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "523" }
       ],
       "F2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Dr. Reddy",
-          "room": "LH-203"
-        },
-        {
-          "time": "10:00 - 12:00",
-          "subject": "PPS Lab",
-          "teacher": "Dr. Iyer",
-          "room": "CompLab-2"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Dr. Sharma",
-          "room": "LH-201"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Basic Electronics Engineering",
-          "teacher": "Prof. Menon",
-          "room": "LH-201"
-        }
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "523" },
+        { "time": "12:30 - 13:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "523" },
+        { "time": "13:30 - 14:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "14:30 - 15:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "523" }
+      ],
+      "F3": [
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "523" },
+        { "time": "12:30 - 13:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "523" },
+        { "time": "13:30 - 14:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "14:30 - 15:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "523" }
       ],
       "G1": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Workshop Practice",
-          "teacher": "Mr. Sharma",
-          "room": "Workshop-A"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Dr. Iyer",
-          "room": "LH-301"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Engineering Physics",
-          "teacher": "Prof. Menon",
-          "room": "LH-301"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Dr. Sharma",
-          "room": "LH-301"
-        }
+        { "time": "08:30 - 09:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "09:30 - 10:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Anagha Ekbote", "room": "409" },
+        { "time": "10:30 - 11:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "409" }
       ],
       "G2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Prof. Singh",
-          "room": "LH-302"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Dr. Patel",
-          "room": "LH-302"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Dr. Iyer",
-          "room": "LH-301"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "Workshop Practice",
-          "teacher": "Mr. Sharma",
-          "room": "Workshop-A"
-        }
+        { "time": "08:30 - 09:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "09:30 - 10:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Anagha Ekbote", "room": "409" },
+        { "time": "10:30 - 11:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "409" }
+      ],
+      "G3": [
+        { "time": "08:30 - 09:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "09:30 - 10:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Anagha Ekbote", "room": "409" },
+        { "time": "10:30 - 11:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "409" }
       ],
       "H1": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Physics Lab",
-          "teacher": "Prof. Kumar",
-          "room": "PhysicsLab-B"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Prof. Menon",
-          "room": "LH-106"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Prof. Joshi",
-          "room": "LH-105"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Basic Electronics Engineering",
-          "teacher": "Dr. Reddy",
-          "room": "LH-105"
-        }
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "12:30 - 13:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Anagha Ekbote", "room": "409" },
+        { "time": "13:30 - 14:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "409" }
       ],
       "H2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Prof. Singh",
-          "room": "LH-107"
-        },
-        {
-          "time": "10:00 - 12:00",
-          "subject": "PPS Lab",
-          "teacher": "Dr. Verma",
-          "room": "CompLab-1"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Prof. Joshi",
-          "room": "LH-105"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Basic Electronics Engineering",
-          "teacher": "Dr. Reddy",
-          "room": "LH-105"
-        }
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "12:30 - 13:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Anagha Ekbote", "room": "409" },
+        { "time": "13:30 - 14:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "409" }
+      ],
+      "H3": [
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "12:30 - 13:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Anagha Ekbote", "room": "409" },
+        { "time": "13:30 - 14:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "409" }
       ],
       "I1": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Workshop Practice",
-          "teacher": "Mr. Singh",
-          "room": "Workshop-A"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Prof. Kumar",
-          "room": "LH-205"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Engineering Physics",
-          "teacher": "Dr. Reddy",
-          "room": "LH-205"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Prof. Joshi",
-          "room": "LH-205"
-        }
+        { "time": "08:30 - 10:30", "subject": "Fundamentals of Web Technology Lab", "teacher": "Ms. Ritu Jadhav", "room": "421" },
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "11:30 - 12:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "313" },
+        { "time": "12:30 - 13:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Ms. Mrunmayee R", "room": "313" }
       ],
       "I2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Dr. Sharma",
-          "room": "LH-206"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Prof. Gupta",
-          "room": "LH-206"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Prof. Kumar",
-          "room": "LH-205"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "Workshop Practice",
-          "teacher": "Mr. Singh",
-          "room": "Workshop-A"
-        }
+        { "time": "08:30 - 10:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Ms. Mrunmayee R", "room": "324" },
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "11:30 - 12:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "313" },
+        { "time": "12:30 - 13:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Ms. Mrunmayee R", "room": "313" }
+      ],
+      "I3": [
+        { "time": "08:30 - 10:30", "subject": "Data Structures using C Lab", "teacher": "Dr. Laxmi P", "room": "346" },
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "11:30 - 12:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "313" },
+        { "time": "12:30 - 13:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Ms. Mrunmayee R", "room": "313" }
       ],
       "J1": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Physics Lab",
-          "teacher": "Dr. Verma",
-          "room": "PhysicsLab-A"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Dr. Reddy",
-          "room": "LH-306"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Dr. Patel",
-          "room": "LH-305"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Basic Electronics Engineering",
-          "teacher": "Prof. Singh",
-          "room": "LH-305"
-        }
+        { "time": "08:30 - 09:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "313" },
+        { "time": "09:30 - 10:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "313" },
+        { "time": "10:30 - 12:30", "subject": "Fundamentals of Web Technology Lab", "teacher": "Ms. Ritu Jadhav", "room": "421" }
       ],
       "J2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Dr. Sharma",
-          "room": "LH-307"
-        },
-        {
-          "time": "10:00 - 12:00",
-          "subject": "PPS Lab",
-          "teacher": "Prof. Menon",
-          "room": "CompLab-2"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Dr. Patel",
-          "room": "LH-305"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Basic Electronics Engineering",
-          "teacher": "Prof. Singh",
-          "room": "LH-305"
-        }
+        { "time": "08:30 - 09:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "313" },
+        { "time": "09:30 - 10:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "313" },
+        { "time": "10:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Ms. Mrunmayee R", "room": "324" }
+      ],
+      "J3": [
+        { "time": "08:30 - 09:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "313" },
+        { "time": "09:30 - 10:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "313" },
+        { "time": "10:30 - 12:30", "subject": "Data Structures using C Lab", "teacher": "Dr. Laxmi P", "room": "346" }
       ]
     },
     "4": {
       "A1": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Dr. Reddy",
-          "room": "LH-102"
-        },
-        {
-          "time": "10:00 - 12:00",
-          "subject": "Chemistry Lab",
-          "teacher": "Dr. Patel",
-          "room": "ChemLab-A"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Communication Skills",
-          "teacher": "Prof. Joshi",
-          "room": "LH-102"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Dr. Sharma",
-          "room": "LH-101"
-        }
+        { "time": "08:30 - 09:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "566" },
+        { "time": "09:30 - 10:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "10:30 - 11:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "11:30 - 12:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "566" },
+        { "time": "12:30 - 13:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" }
       ],
       "A2": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Engineering Graphics Lab",
-          "teacher": "Dr. Iyer",
-          "room": "EG-Hall-1"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Physics",
-          "teacher": "Prof. Gupta",
-          "room": "LH-101"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Dr. Verma",
-          "room": "LH-101"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Communication Skills",
-          "teacher": "Prof. Joshi",
-          "room": "LH-102"
-        }
+        { "time": "08:30 - 09:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "566" },
+        { "time": "09:30 - 10:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "10:30 - 11:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "11:30 - 12:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "566" },
+        { "time": "12:30 - 13:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" }
+      ],
+      "A3": [
+        { "time": "08:30 - 09:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "566" },
+        { "time": "09:30 - 10:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "10:30 - 11:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "11:30 - 12:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "566" },
+        { "time": "12:30 - 13:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" }
       ],
       "B1": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Communication Skills",
-          "teacher": "Prof. Joshi",
-          "room": "LH-203"
-        },
-        {
-          "time": "10:00 - 12:00",
-          "subject": "Workshop Practice",
-          "teacher": "Mr. Mishra",
-          "room": "Workshop-B"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Prof. Menon",
-          "room": "LH-201"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Basic Electronics Engineering",
-          "teacher": "Dr. Iyer",
-          "room": "LH-201"
-        }
+        { "time": "12:30 - 13:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "13:30 - 14:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "566" },
+        { "time": "14:30 - 15:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "15:30 - 16:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "566" }
       ],
       "B2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Dr. Patel",
-          "room": "LH-203"
-        },
-        {
-          "time": "10:00 - 12:00",
-          "subject": "Physics Lab",
-          "teacher": "Dr. Reddy",
-          "room": "PhysicsLab-B"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Communication Skills",
-          "teacher": "Prof. Joshi",
-          "room": "LH-203"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Prof. Menon",
-          "room": "LH-201"
-        }
+        { "time": "12:30 - 13:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "13:30 - 14:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "566" },
+        { "time": "14:30 - 15:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "15:30 - 16:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "566" }
+      ],
+      "B3": [
+        { "time": "12:30 - 13:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "13:30 - 14:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "566" },
+        { "time": "14:30 - 15:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "15:30 - 16:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "566" }
       ],
       "C1": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Prof. Menon",
-          "room": "LH-102"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Dr. Sharma",
-          "room": "LH-102"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Communication Skills",
-          "teacher": "Prof. Gupta",
-          "room": "LH-102"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "Chemistry Lab",
-          "teacher": "Dr. Reddy",
-          "room": "ChemLab-A"
-        }
+        { "time": "08:30 - 09:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "575" },
+        { "time": "09:30 - 10:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "575" },
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" }
       ],
       "C2": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Engineering Graphics Lab",
-          "teacher": "Dr. Patel",
-          "room": "EG-Hall-1"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Prof. Menon",
-          "room": "LH-102"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Dr. Sharma",
-          "room": "LH-102"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Dr. Verma",
-          "room": "LH-101"
-        }
+        { "time": "08:30 - 09:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "575" },
+        { "time": "09:30 - 10:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "575" },
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" }
+      ],
+      "C3": [
+        { "time": "08:30 - 09:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "575" },
+        { "time": "09:30 - 10:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "575" },
+        { "time": "10:30 - 11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" }
       ],
       "D1": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Physics",
-          "teacher": "Dr. Patel",
-          "room": "LH-302"
-        },
-        {
-          "time": "10:00 - 12:00",
-          "subject": "Workshop Practice",
-          "teacher": "Dr. Iyer",
-          "room": "Workshop-A"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Prof. Joshi",
-          "room": "LH-303"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Prof. Menon",
-          "room": "LH-303"
-        }
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "575" },
+        { "time": "13:30 - 14:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" },
+        { "time": "14:30 - 15:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" }
       ],
       "D2": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Physics Lab",
-          "teacher": "Prof. Kumar",
-          "room": "PhysicsLab-A"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Communication Skills",
-          "teacher": "Dr. Sharma",
-          "room": "LH-303"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Prof. Joshi",
-          "room": "LH-303"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Prof. Kumar",
-          "room": "LH-302"
-        }
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "575" },
+        { "time": "13:30 - 14:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" },
+        { "time": "14:30 - 15:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" }
+      ],
+      "D3": [
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "575" },
+        { "time": "13:30 - 14:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" },
+        { "time": "14:30 - 15:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" }
       ],
       "E1": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Prof. Joshi",
-          "room": "LH-104"
-        },
-        {
-          "time": "10:00 - 12:00",
-          "subject": "Chemistry Lab",
-          "teacher": "Prof. Kumar",
-          "room": "ChemLab-B"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Communication Skills",
-          "teacher": "Dr. Iyer",
-          "room": "LH-104"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Prof. Gupta",
-          "room": "LH-103"
-        }
+        { "time": "08:30 - 10:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Dr.Dipti C", "room": "325" },
+        { "time": "10:30 - 11:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "523" },
+        { "time": "11:30 - 12:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" },
+        { "time": "12:30 - 13:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "523" },
+        { "time": "13:30 - 14:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" }
       ],
       "E2": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Engineering Graphics Lab",
-          "teacher": "Dr. Reddy",
-          "room": "EG-Hall-1"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Physics",
-          "teacher": "Dr. Verma",
-          "room": "LH-103"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Prof. Singh",
-          "room": "LH-103"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Communication Skills",
-          "teacher": "Dr. Iyer",
-          "room": "LH-104"
-        }
+        { "time": "08:30 - 10:30", "subject": "Data Structures using C Lab", "teacher": "Dr. Laxmi P", "room": "353" },
+        { "time": "10:30 - 11:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "523" },
+        { "time": "11:30 - 12:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" },
+        { "time": "12:30 - 13:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "523" },
+        { "time": "13:30 - 14:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" }
+      ],
+      "E3": [
+        { "time": "08:30 - 10:30", "subject": "Fundamentals of Web Technology Lab", "teacher": "Ms. Ritu Jadhav", "room": "CC" },
+        { "time": "10:30 - 11:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "523" },
+        { "time": "11:30 - 12:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" },
+        { "time": "12:30 - 13:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "523" },
+        { "time": "13:30 - 14:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" }
       ],
       "F1": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Physics",
-          "teacher": "Prof. Gupta",
-          "room": "LH-202"
-        },
-        {
-          "time": "10:00 - 12:00",
-          "subject": "Workshop Practice",
-          "teacher": "Mr. Mishra",
-          "room": "Workshop-A"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Dr. Patel",
-          "room": "LH-203"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Dr. Reddy",
-          "room": "LH-203"
-        }
+        { "time": "08:30 - 09:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "523" },
+        { "time": "09:30 - 10:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" },
+        { "time": "10:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Dr.Dipti C", "room": "325" }
       ],
       "F2": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Physics Lab",
-          "teacher": "Dr. Verma",
-          "room": "PhysicsLab-B"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Communication Skills",
-          "teacher": "Prof. Joshi",
-          "room": "LH-203"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Dr. Patel",
-          "room": "LH-203"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Dr. Verma",
-          "room": "LH-202"
-        }
+        { "time": "08:30 - 09:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "523" },
+        { "time": "09:30 - 10:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" },
+        { "time": "10:30 - 12:30", "subject": "Fundamentals of Web Technology Lab", "teacher": "Ms. Ritu Jadhav", "room": "CC" }
+      ],
+      "F3": [
+        { "time": "08:30 - 09:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "523" },
+        { "time": "09:30 - 10:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" },
+        { "time": "10:30 - 12:30", "subject": "Data Structures using C Lab", "teacher": "Dr. Laxmi P", "room": "353" }
       ],
       "G1": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Dr. Patel",
-          "room": "LH-302"
-        },
-        {
-          "time": "10:00 - 12:00",
-          "subject": "Chemistry Lab",
-          "teacher": "Prof. Singh",
-          "room": "ChemLab-A"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Communication Skills",
-          "teacher": "Prof. Kumar",
-          "room": "LH-302"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Dr. Iyer",
-          "room": "LH-301"
-        }
+        { "time": "08:30 - 09:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "409" },
+        { "time": "09:30 - 10:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "409" },
+        { "time": "10:30 - 12:30", "subject": "Data Structures using C Lab", "teacher": "Dr. Laxmi P", "room": "353" },
+        { "time": "13:30 - 14:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "409" }
       ],
       "G2": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Engineering Graphics Lab",
-          "teacher": "Dr. Reddy",
-          "room": "EG-Hall-1"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Physics",
-          "teacher": "Prof. Menon",
-          "room": "LH-301"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Dr. Sharma",
-          "room": "LH-301"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Communication Skills",
-          "teacher": "Prof. Kumar",
-          "room": "LH-302"
-        }
+        { "time": "08:30 - 09:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "409" },
+        { "time": "09:30 - 10:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "409" },
+        { "time": "10:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Mrs. Jyoti Tipale", "room": "325" },
+        { "time": "13:30 - 14:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "409" }
+      ],
+      "G3": [
+        { "time": "08:30 - 09:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "409" },
+        { "time": "09:30 - 10:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "409" },
+        { "time": "10:30 - 12:30", "subject": "Fundamentals of Web Technology Lab", "teacher": "Ms. Ritu Jadhav", "room": "CC" },
+        { "time": "13:30 - 14:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "409" }
       ],
       "H1": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Physics",
-          "teacher": "Dr. Iyer",
-          "room": "LH-106"
-        },
-        {
-          "time": "10:00 - 12:00",
-          "subject": "Workshop Practice",
-          "teacher": "Dr. Verma",
-          "room": "Workshop-B"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Prof. Gupta",
-          "room": "LH-107"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Prof. Singh",
-          "room": "LH-107"
-        }
+        { "time": "11:30 - 12:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "409" },
+        { "time": "13:30 - 14:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "409" },
+        { "time": "14:30 - 16:30", "subject": "Data Structures using C Lab", "teacher": "Dr. Laxmi P", "room": "353" }
       ],
       "H2": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Physics Lab",
-          "teacher": "Prof. Kumar",
-          "room": "PhysicsLab-B"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Communication Skills",
-          "teacher": "Dr. Patel",
-          "room": "LH-107"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Prof. Gupta",
-          "room": "LH-107"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Prof. Menon",
-          "room": "LH-106"
-        }
+        { "time": "11:30 - 12:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "409" },
+        { "time": "13:30 - 14:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "409" },
+        { "time": "14:30 - 16:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Mrs. Jyoti Tipale", "room": "325" }
+      ],
+      "H3": [
+        { "time": "11:30 - 12:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "409" },
+        { "time": "13:30 - 14:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "409" },
+        { "time": "14:30 - 16:30", "subject": "Fundamentals of Web Technology Lab", "teacher": "Ms. Ritu Jadhav", "room": "CC" }
       ],
       "I1": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Prof. Gupta",
-          "room": "LH-206"
-        },
-        {
-          "time": "10:00 - 12:00",
-          "subject": "Chemistry Lab",
-          "teacher": "Dr. Patel",
-          "room": "ChemLab-B"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Communication Skills",
-          "teacher": "Dr. Verma",
-          "room": "LH-206"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Prof. Kumar",
-          "room": "LH-205"
-        }
+        { "time": "08:30 - 09:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "313" },
+        { "time": "09:30 - 10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Ms. Mrunmayee R", "room": "313" },
+        { "time": "10:30 - 11:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "313" }
       ],
       "I2": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Engineering Graphics Lab",
-          "teacher": "Prof. Singh",
-          "room": "EG-Hall-1"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Physics",
-          "teacher": "Dr. Reddy",
-          "room": "LH-205"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Prof. Joshi",
-          "room": "LH-205"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Communication Skills",
-          "teacher": "Dr. Verma",
-          "room": "LH-206"
-        }
+        { "time": "08:30 - 09:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "313" },
+        { "time": "09:30 - 10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Ms. Mrunmayee R", "room": "313" },
+        { "time": "10:30 - 11:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "313" }
+      ],
+      "I3": [
+        { "time": "08:30 - 09:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "313" },
+        { "time": "09:30 - 10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Ms. Mrunmayee R", "room": "313" },
+        { "time": "10:30 - 11:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "313" }
       ],
       "J1": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Physics",
-          "teacher": "Prof. Kumar",
-          "room": "LH-306"
-        },
-        {
-          "time": "10:00 - 12:00",
-          "subject": "Workshop Practice",
-          "teacher": "Mr. Sharma",
-          "room": "Workshop-B"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Dr. Iyer",
-          "room": "LH-307"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Dr. Sharma",
-          "room": "LH-307"
-        }
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Ms. Mrunmayee R", "room": "313" }
       ],
       "J2": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Physics Lab",
-          "teacher": "Dr. Verma",
-          "room": "PhysicsLab-A"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Communication Skills",
-          "teacher": "Prof. Gupta",
-          "room": "LH-307"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Dr. Iyer",
-          "room": "LH-307"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Dr. Reddy",
-          "room": "LH-306"
-        }
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Ms. Mrunmayee R", "room": "313" }
+      ],
+      "J3": [
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Ms. Mrunmayee R", "room": "313" }
       ]
     },
     "5": {
       "A1": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Engineering Graphics Lab",
-          "teacher": "Dr. Iyer",
-          "room": "EG-Hall-1"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Physics",
-          "teacher": "Prof. Gupta",
-          "room": "LH-101"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Dr. Verma",
-          "room": "LH-101"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Dr. Reddy",
-          "room": "LH-102"
-        }
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "566" },
+        { "time": "12:30 - 13:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "566" },
+        { "time": "13:30 - 14:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "566" }
       ],
       "A2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Dr. Sharma",
-          "room": "LH-101"
-        },
-        {
-          "time": "10:00 - 12:00",
-          "subject": "Chemistry Lab",
-          "teacher": "Dr. Patel",
-          "room": "ChemLab-A"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Dr. Reddy",
-          "room": "LH-102"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Engineering Physics",
-          "teacher": "Prof. Gupta",
-          "room": "LH-101"
-        }
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "566" },
+        { "time": "12:30 - 13:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "566" },
+        { "time": "13:30 - 14:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "566" }
+      ],
+      "A3": [
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "566" },
+        { "time": "12:30 - 13:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "566" },
+        { "time": "13:30 - 14:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "566" }
       ],
       "B1": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Engineering Graphics Lab",
-          "teacher": "Dr. Iyer",
-          "room": "EG-Hall-2"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Physics",
-          "teacher": "Dr. Sharma",
-          "room": "LH-202"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Prof. Gupta",
-          "room": "LH-202"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Dr. Patel",
-          "room": "LH-203"
-        }
+        { "time": "08:30 - 09:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "566" },
+        { "time": "09:30 - 10:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "566" },
+        { "time": "10:30 - 11:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "566" },
+        { "time": "11:30 - 12:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" }
       ],
       "B2": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Engineering Graphics Lab",
-          "teacher": "Dr. Iyer",
-          "room": "EG-Hall-2"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Prof. Kumar",
-          "room": "LH-203"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Engineering Physics",
-          "teacher": "Dr. Sharma",
-          "room": "LH-202"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Prof. Gupta",
-          "room": "LH-202"
-        }
+        { "time": "08:30 - 09:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "566" },
+        { "time": "09:30 - 10:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "566" },
+        { "time": "10:30 - 11:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "566" },
+        { "time": "11:30 - 12:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" }
+      ],
+      "B3": [
+        { "time": "08:30 - 09:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "566" },
+        { "time": "09:30 - 10:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "566" },
+        { "time": "10:30 - 11:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "566" },
+        { "time": "11:30 - 12:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" }
       ],
       "C1": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Dr. Sharma",
-          "room": "LH-101"
-        },
-        {
-          "time": "10:00 - 12:00",
-          "subject": "Engineering Graphics Lab",
-          "teacher": "Dr. Patel",
-          "room": "EG-Hall-1"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Engineering Physics",
-          "teacher": "Prof. Gupta",
-          "room": "LH-101"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Dr. Verma",
-          "room": "LH-101"
-        }
+        { "time": "12:30 - 13:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "575" },
+        { "time": "13:30 - 14:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" },
+        { "time": "14:30 - 15:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "575" },
+        { "time": "15:30 - 16:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "575" }
       ],
       "C2": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Workshop Practice",
-          "teacher": "Mr. Mishra",
-          "room": "Workshop-A"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Dr. Sharma",
-          "room": "LH-101"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Engineering Physics",
-          "teacher": "Prof. Gupta",
-          "room": "LH-101"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Prof. Menon",
-          "room": "LH-102"
-        }
+        { "time": "12:30 - 13:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "575" },
+        { "time": "13:30 - 14:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" },
+        { "time": "14:30 - 15:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "575" },
+        { "time": "15:30 - 16:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "575" }
+      ],
+      "C3": [
+        { "time": "12:30 - 13:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "575" },
+        { "time": "13:30 - 14:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" },
+        { "time": "14:30 - 15:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "575" },
+        { "time": "15:30 - 16:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "575" }
       ],
       "D1": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Engineering Graphics Lab",
-          "teacher": "Prof. Gupta",
-          "room": "EG-Hall-2"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Communication Skills",
-          "teacher": "Dr. Sharma",
-          "room": "LH-303"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Prof. Singh",
-          "room": "LH-301"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Prof. Kumar",
-          "room": "LH-302"
-        }
+        { "time": "08:30 - 09:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "575" },
+        { "time": "09:30 - 10:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "575" },
+        { "time": "10:30 - 11:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" },
+        { "time": "11:30 - 12:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "575" },
+        { "time": "12:30 - 13:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" }
       ],
       "D2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Physics",
-          "teacher": "Dr. Patel",
-          "room": "LH-302"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Prof. Menon",
-          "room": "LH-303"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Prof. Singh",
-          "room": "LH-301"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "Engineering Graphics Lab",
-          "teacher": "Prof. Gupta",
-          "room": "EG-Hall-2"
-        }
+        { "time": "08:30 - 09:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "575" },
+        { "time": "09:30 - 10:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "575" },
+        { "time": "10:30 - 11:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" },
+        { "time": "11:30 - 12:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "575" },
+        { "time": "12:30 - 13:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" }
+      ],
+      "D3": [
+        { "time": "08:30 - 09:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "575" },
+        { "time": "09:30 - 10:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "575" },
+        { "time": "10:30 - 11:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" },
+        { "time": "11:30 - 12:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "575" },
+        { "time": "12:30 - 13:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" }
       ],
       "E1": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Engineering Graphics Lab",
-          "teacher": "Dr. Reddy",
-          "room": "EG-Hall-1"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Physics",
-          "teacher": "Dr. Verma",
-          "room": "LH-103"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Prof. Singh",
-          "room": "LH-103"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Prof. Joshi",
-          "room": "LH-104"
-        }
+        { "time": "12:30 - 13:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "523" },
+        { "time": "13:30 - 14:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "523" },
+        { "time": "14:30 - 16:30", "subject": "Data Structures using C Lab", "teacher": "Dr. Laxmi P", "room": "353" }
       ],
       "E2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Prof. Gupta",
-          "room": "LH-103"
-        },
-        {
-          "time": "10:00 - 12:00",
-          "subject": "Chemistry Lab",
-          "teacher": "Prof. Kumar",
-          "room": "ChemLab-B"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Prof. Joshi",
-          "room": "LH-104"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Engineering Physics",
-          "teacher": "Dr. Verma",
-          "room": "LH-103"
-        }
+        { "time": "12:30 - 13:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "523" },
+        { "time": "13:30 - 14:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "523" },
+        { "time": "14:30 - 16:30", "subject": "Fundamentals of Web Technology Lab", "teacher": "Ms. Ritu Jadhav", "room": "CC" }
+      ],
+      "E3": [
+        { "time": "12:30 - 14:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Dr.Dipti C", "room": "325" },
+        { "time": "14:30 - 15:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "523" },
+        { "time": "15:30 - 16:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "523" }
       ],
       "F1": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Engineering Graphics Lab",
-          "teacher": "Prof. Kumar",
-          "room": "EG-Hall-2"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Communication Skills",
-          "teacher": "Prof. Joshi",
-          "room": "LH-203"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Dr. Sharma",
-          "room": "LH-201"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Dr. Verma",
-          "room": "LH-202"
-        }
+        { "time": "08:30 - 10:30", "subject": "Data Structures using C Lab", "teacher": "Dr. Laxmi P", "room": "353" },
+        { "time": "10:30 - 11:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "523" },
+        { "time": "11:30 - 12:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "523" },
+        { "time": "14:30 - 16:30", "subject": "Fundamentals of Web Technology Lab", "teacher": "Ms. Ritu Jadhav", "room": "CC" }
       ],
       "F2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Physics",
-          "teacher": "Prof. Gupta",
-          "room": "LH-202"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Dr. Reddy",
-          "room": "LH-203"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Dr. Sharma",
-          "room": "LH-201"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "Engineering Graphics Lab",
-          "teacher": "Prof. Kumar",
-          "room": "EG-Hall-2"
-        }
+        { "time": "08:30 - 10:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Dr.Dipti C", "room": "325" },
+        { "time": "10:30 - 11:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "523" },
+        { "time": "11:30 - 12:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "523" },
+        { "time": "14:30 - 16:30", "subject": "Data Structures using C Lab", "teacher": "Dr. Laxmi P", "room": "353" }
+      ],
+      "F3": [
+        { "time": "08:30 - 10:30", "subject": "Fundamentals of Web Technology Lab", "teacher": "Ms. Ritu Jadhav", "room": "CC" },
+        { "time": "10:30 - 11:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "523" },
+        { "time": "11:30 - 12:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "523" },
+        { "time": "14:30 - 16:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Dr.Dipti C", "room": "325" }
       ],
       "G1": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Engineering Graphics Lab",
-          "teacher": "Dr. Reddy",
-          "room": "EG-Hall-1"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Physics",
-          "teacher": "Prof. Menon",
-          "room": "LH-301"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Dr. Sharma",
-          "room": "LH-301"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Dr. Patel",
-          "room": "LH-302"
-        }
+        { "time": "08:30 - 09:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "409" },
+        { "time": "09:30 - 10:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "409" },
+        { "time": "10:30 - 12:30", "subject": "Data Structures using C Lab", "teacher": "Dr. Laxmi P", "room": "353" },
+        { "time": "13:30 - 14:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "409" }
       ],
       "G2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Dr. Iyer",
-          "room": "LH-301"
-        },
-        {
-          "time": "10:00 - 12:00",
-          "subject": "Chemistry Lab",
-          "teacher": "Prof. Singh",
-          "room": "ChemLab-A"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Dr. Patel",
-          "room": "LH-302"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Engineering Physics",
-          "teacher": "Prof. Menon",
-          "room": "LH-301"
-        }
+        { "time": "08:30 - 09:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "409" },
+        { "time": "09:30 - 10:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "409" },
+        { "time": "10:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Mrs. Jyoti Tipale", "room": "325" },
+        { "time": "13:30 - 14:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "409" }
+      ],
+      "G3": [
+        { "time": "08:30 - 09:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "409" },
+        { "time": "09:30 - 10:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "409" },
+        { "time": "10:30 - 12:30", "subject": "Fundamentals of Web Technology Lab", "teacher": "Ms. Ritu Jadhav", "room": "CC" },
+        { "time": "13:30 - 14:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "409" }
       ],
       "H1": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Engineering Graphics Lab",
-          "teacher": "Dr. Reddy",
-          "room": "EG-Hall-2"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Communication Skills",
-          "teacher": "Dr. Patel",
-          "room": "LH-107"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Prof. Joshi",
-          "room": "LH-105"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Prof. Menon",
-          "room": "LH-106"
-        }
+        { "time": "10:30 - 11:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "409" },
+        { "time": "14:30 - 15:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "409" },
+        { "time": "15:30 - 16:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "409" }
       ],
       "H2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Physics",
-          "teacher": "Dr. Iyer",
-          "room": "LH-106"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Prof. Singh",
-          "room": "LH-107"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Prof. Joshi",
-          "room": "LH-105"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "Engineering Graphics Lab",
-          "teacher": "Dr. Reddy",
-          "room": "EG-Hall-2"
-        }
+        { "time": "10:30 - 11:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "409" },
+        { "time": "12:30 - 14:30", "subject": "Fundamentals of Web Technology Lab", "teacher": "Ms. Ritu Jadhav", "room": "CC" },
+        { "time": "14:30 - 15:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "409" },
+        { "time": "15:30 - 16:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "409" }
+      ],
+      "H3": [
+        { "time": "10:30 - 11:30", "subject": "Data Structures using C", "teacher": "Dr. Laxmi P", "room": "409" },
+        { "time": "12:30 - 14:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Mrs. Jyoti Tipale", "room": "325" },
+        { "time": "14:30 - 15:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "409" },
+        { "time": "15:30 - 16:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "409" }
       ],
       "I1": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Engineering Graphics Lab",
-          "teacher": "Prof. Singh",
-          "room": "EG-Hall-1"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Physics",
-          "teacher": "Dr. Reddy",
-          "room": "LH-205"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Prof. Joshi",
-          "room": "LH-205"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Prof. Gupta",
-          "room": "LH-206"
-        }
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Ms. Mrunmayee R", "room": "313" },
+        { "time": "12:30 - 13:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "313" },
+        { "time": "13:30 - 14:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "313" }
       ],
       "I2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Prof. Kumar",
-          "room": "LH-205"
-        },
-        {
-          "time": "10:00 - 12:00",
-          "subject": "Chemistry Lab",
-          "teacher": "Dr. Patel",
-          "room": "ChemLab-B"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Programming for Problem Solving",
-          "teacher": "Prof. Gupta",
-          "room": "LH-206"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Engineering Physics",
-          "teacher": "Dr. Reddy",
-          "room": "LH-205"
-        }
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Ms. Mrunmayee R", "room": "313" },
+        { "time": "12:30 - 13:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "313" },
+        { "time": "13:30 - 14:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "313" }
+      ],
+      "I3": [
+        { "time": "10:30 - 11:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "11:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Ms. Mrunmayee R", "room": "313" },
+        { "time": "12:30 - 13:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "313" },
+        { "time": "13:30 - 14:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "313" }
       ],
       "J1": [
-        {
-          "time": "09:00 - 11:00",
-          "subject": "Engineering Graphics Lab",
-          "teacher": "Prof. Menon",
-          "room": "EG-Hall-1"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Communication Skills",
-          "teacher": "Prof. Gupta",
-          "room": "LH-307"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 14:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Dr. Patel",
-          "room": "LH-305"
-        },
-        {
-          "time": "14:00 - 15:00",
-          "subject": "Basic Electrical Engineering",
-          "teacher": "Dr. Reddy",
-          "room": "LH-306"
-        }
+        { "time": "08:30 - 09:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "313" },
+        { "time": "09:30 - 10:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "10:30 - 11:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Ms. Mrunmayee R", "room": "313" }
       ],
       "J2": [
-        {
-          "time": "09:00 - 10:00",
-          "subject": "Engineering Physics",
-          "teacher": "Prof. Kumar",
-          "room": "LH-306"
-        },
-        {
-          "time": "10:00 - 11:00",
-          "subject": "Engineering Chemistry",
-          "teacher": "Dr. Sharma",
-          "room": "LH-307"
-        },
-        {
-          "time": "11:00 - 12:00",
-          "subject": "Engineering Mathematics - I",
-          "teacher": "Dr. Patel",
-          "room": "LH-305"
-        },
-        {
-          "time": "12:00 - 13:00",
-          "subject": "LUNCH BREAK",
-          "teacher": "-",
-          "room": "Canteen"
-        },
-        {
-          "time": "13:00 - 15:00",
-          "subject": "Engineering Graphics Lab",
-          "teacher": "Prof. Menon",
-          "room": "EG-Hall-1"
-        }
+        { "time": "08:30 - 09:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "313" },
+        { "time": "09:30 - 10:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "10:30 - 11:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Ms. Mrunmayee R", "room": "313" }
+      ],
+      "J3": [
+        { "time": "08:30 - 09:30", "subject": "Fundamentals of Web Technology", "teacher": "Ms. Ritu Jadhav", "room": "313" },
+        { "time": "09:30 - 10:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "10:30 - 11:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Ms. Mrunmayee R", "room": "313" }
       ]
     },
-    "6": {}
+    "6": {
+      "A1": [
+        { "time": "08:30 - 09:30", "subject": "Indian Knowledge System", "teacher": "Mrs. Sunita S", "room": "566" },
+        { "time": "09:30 - 10:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "10:30 - 11:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Dr. Laxmi P", "room": "566" },
+        { "time": "11:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Dr. Gaurav S", "room": "566" }
+      ],
+      "A2": [
+        { "time": "08:30 - 09:30", "subject": "Indian Knowledge System", "teacher": "Mrs. Sunita S", "room": "566" },
+        { "time": "09:30 - 10:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "10:30 - 11:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Dr. Laxmi P", "room": "566" },
+        { "time": "11:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Dr. Gaurav S", "room": "566" }
+      ],
+      "A3": [
+        { "time": "08:30 - 09:30", "subject": "Indian Knowledge System", "teacher": "Mrs. Sunita S", "room": "566" },
+        { "time": "09:30 - 10:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "10:30 - 11:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Dr. Laxmi P", "room": "566" },
+        { "time": "11:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Dr. Gaurav S", "room": "566" }
+      ],
+      "B1": [
+        { "time": "12:30 - 13:30", "subject": "Indian Knowledge System", "teacher": "Mrs. Sunita S", "room": "566" },
+        { "time": "13:30 - 14:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "14:30 - 15:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Dr. Laxmi P", "room": "566" },
+        { "time": "15:30 - 16:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Dr. Gaurav S", "room": "566" }
+      ],
+      "B2": [
+        { "time": "12:30 - 13:30", "subject": "Indian Knowledge System", "teacher": "Mrs. Sunita S", "room": "566" },
+        { "time": "13:30 - 14:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "14:30 - 15:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Dr. Laxmi P", "room": "566" },
+        { "time": "15:30 - 16:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Dr. Gaurav S", "room": "566" }
+      ],
+      "B3": [
+        { "time": "12:30 - 13:30", "subject": "Indian Knowledge System", "teacher": "Mrs. Sunita S", "room": "566" },
+        { "time": "13:30 - 14:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "14:30 - 15:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Dr. Laxmi P", "room": "566" },
+        { "time": "15:30 - 16:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Dr. Gaurav S", "room": "566" }
+      ],
+      "C1": [
+        { "time": "08:30 - 09:30", "subject": "Indian Knowledge System", "teacher": "Mrs. Sunita S", "room": "575" },
+        { "time": "09:30 - 10:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Mrs. Sunita S", "room": "575" },
+        { "time": "10:30 - 11:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Dr. Laxmi P", "room": "575" },
+        { "time": "11:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Dr. Dipika P", "room": "575" }
+      ],
+      "C2": [
+        { "time": "08:30 - 09:30", "subject": "Indian Knowledge System", "teacher": "Mrs. Sunita S", "room": "575" },
+        { "time": "09:30 - 10:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Mrs. Sunita S", "room": "575" },
+        { "time": "10:30 - 11:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Dr. Laxmi P", "room": "575" },
+        { "time": "11:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Dr. Dipika P", "room": "575" }
+      ],
+      "C3": [
+        { "time": "08:30 - 09:30", "subject": "Indian Knowledge System", "teacher": "Mrs. Sunita S", "room": "575" },
+        { "time": "09:30 - 10:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Mrs. Sunita S", "room": "575" },
+        { "time": "10:30 - 11:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Dr. Laxmi P", "room": "575" },
+        { "time": "11:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Dr. Dipika P", "room": "575" }
+      ],
+      "D1": [
+        { "time": "12:30 - 13:30", "subject": "Indian Knowledge System", "teacher": "Mrs. Sunita S", "room": "575" },
+        { "time": "13:30 - 14:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Mrs. Sunita S", "room": "575" },
+        { "time": "14:30 - 15:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Dr. Laxmi P", "room": "575" },
+        { "time": "15:30 - 16:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Dr. Dipika P", "room": "575" }
+      ],
+      "D2": [
+        { "time": "12:30 - 13:30", "subject": "Indian Knowledge System", "teacher": "Mrs. Sunita S", "room": "575" },
+        { "time": "13:30 - 14:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Mrs. Sunita S", "room": "575" },
+        { "time": "14:30 - 15:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Dr. Laxmi P", "room": "575" },
+        { "time": "15:30 - 16:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Dr. Dipika P", "room": "575" }
+      ],
+      "D3": [
+        { "time": "12:30 - 13:30", "subject": "Indian Knowledge System", "teacher": "Mrs. Sunita S", "room": "575" },
+        { "time": "13:30 - 14:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Mrs. Sunita S", "room": "575" },
+        { "time": "14:30 - 15:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Dr. Laxmi P", "room": "575" },
+        { "time": "15:30 - 16:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Dr. Dipika P", "room": "575" }
+      ],
+      "E1": [
+        { "time": "08:30 - 09:30", "subject": "Indian Knowledge System", "teacher": "Mrs. Sunita S", "room": "523" },
+        { "time": "09:30 - 10:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Mrs. Sunita S", "room": "523" },
+        { "time": "10:30 - 11:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "14:30 - 15:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Dr. Laxmi P", "room": "523" }
+      ],
+      "E2": [
+        { "time": "08:30 - 09:30", "subject": "Indian Knowledge System", "teacher": "Mrs. Sunita S", "room": "523" },
+        { "time": "09:30 - 10:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Mrs. Sunita S", "room": "523" },
+        { "time": "10:30 - 11:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "14:30 - 15:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Dr. Laxmi P", "room": "523" }
+      ],
+      "E3": [
+        { "time": "08:30 - 09:30", "subject": "Indian Knowledge System", "teacher": "Mrs. Sunita S", "room": "523" },
+        { "time": "09:30 - 10:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Mrs. Sunita S", "room": "523" },
+        { "time": "10:30 - 11:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "14:30 - 15:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Dr. Laxmi P", "room": "523" }
+      ],
+      "F1": [
+        { "time": "09:30 - 10:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Dr. Laxmi P", "room": "430" },
+        { "time": "10:30 - 11:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Dr.Dipti C", "room": "430" },
+        { "time": "12:30 - 13:30", "subject": "Indian Knowledge System", "teacher": "Mrs. Sunita S", "room": "523" },
+        { "time": "13:30 - 14:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Mrs. Sunita S", "room": "523" }
+      ],
+      "F2": [
+        { "time": "09:30 - 10:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Dr. Laxmi P", "room": "430" },
+        { "time": "10:30 - 11:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Dr.Dipti C", "room": "430" },
+        { "time": "12:30 - 13:30", "subject": "Indian Knowledge System", "teacher": "Mrs. Sunita S", "room": "523" },
+        { "time": "13:30 - 14:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Mrs. Sunita S", "room": "523" }
+      ],
+      "F3": [
+        { "time": "09:30 - 10:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Dr. Laxmi P", "room": "430" },
+        { "time": "10:30 - 11:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Dr.Dipti C", "room": "430" },
+        { "time": "12:30 - 13:30", "subject": "Indian Knowledge System", "teacher": "Mrs. Sunita S", "room": "523" },
+        { "time": "13:30 - 14:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Mrs. Sunita S", "room": "523" }
+      ],
+      "G1": [
+        { "time": "08:30 - 10:30", "subject": "Fundamentals of Web Technology Lab", "teacher": "Ms. Ritu Jadhav", "room": "CC" },
+        { "time": "10:30 - 11:30", "subject": "Indian Knowledge System", "teacher": "Mrs. Sunita S", "room": "409" },
+        { "time": "11:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "12:30 - 13:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Mrs. Sunita S", "room": "409" },
+        { "time": "14:30 - 15:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Dr. Laxmi P", "room": "409" }
+      ],
+      "G2": [
+        { "time": "08:30 - 10:30", "subject": "Data Structures using C Lab", "teacher": "Dr. Laxmi P", "room": "353" },
+        { "time": "10:30 - 11:30", "subject": "Indian Knowledge System", "teacher": "Mrs. Sunita S", "room": "409" },
+        { "time": "11:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "12:30 - 13:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Mrs. Sunita S", "room": "409" },
+        { "time": "14:30 - 15:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Dr. Laxmi P", "room": "409" }
+      ],
+      "G3": [
+        { "time": "08:30 - 10:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Mrs. Jyoti Tipale", "room": "325" },
+        { "time": "10:30 - 11:30", "subject": "Indian Knowledge System", "teacher": "Mrs. Sunita S", "room": "409" },
+        { "time": "11:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "12:30 - 13:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Mrs. Sunita S", "room": "409" },
+        { "time": "14:30 - 15:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Dr. Laxmi P", "room": "409" }
+      ],
+      "H1": [
+        { "time": "08:30 - 09:30", "subject": "Indian Knowledge System", "teacher": "Mrs. Sunita S", "room": "409" },
+        { "time": "09:30 - 10:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Dr. Laxmi P", "room": "409" },
+        { "time": "10:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering Lab", "teacher": "Mrs. Jyoti Tipale", "room": "325" },
+        { "time": "13:30 - 14:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Mrs. Sunita S", "room": "409" },
+        { "time": "14:30 - 15:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Mrs. Jyoti Tipale", "room": "409" }
+      ],
+      "H2": [
+        { "time": "08:30 - 09:30", "subject": "Indian Knowledge System", "teacher": "Mrs. Sunita S", "room": "409" },
+        { "time": "09:30 - 10:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Dr. Laxmi P", "room": "409" },
+        { "time": "10:30 - 12:30", "subject": "Data Structures using C Lab", "teacher": "Dr. Laxmi P", "room": "353" },
+        { "time": "13:30 - 14:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Mrs. Sunita S", "room": "409" },
+        { "time": "14:30 - 15:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Mrs. Jyoti Tipale", "room": "409" }
+      ],
+      "H3": [
+        { "time": "08:30 - 09:30", "subject": "Indian Knowledge System", "teacher": "Mrs. Sunita S", "room": "409" },
+        { "time": "09:30 - 10:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Dr. Laxmi P", "room": "409" },
+        { "time": "10:30 - 12:30", "subject": "Data Structures using C Lab", "teacher": "Dr. Laxmi P", "room": "353" },
+        { "time": "13:30 - 14:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Mrs. Sunita S", "room": "409" },
+        { "time": "14:30 - 15:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Mrs. Jyoti Tipale", "room": "409" }
+      ],
+      "I1": [
+        { "time": "08:30 - 09:30", "subject": "Indian Knowledge System", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "09:30 - 10:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "10:30 - 11:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Dr. Laxmi P", "room": "313" },
+        { "time": "11:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Ms. Mrunmayee R", "room": "313" }
+      ],
+      "I2": [
+        { "time": "08:30 - 09:30", "subject": "Indian Knowledge System", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "09:30 - 10:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "10:30 - 11:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Dr. Laxmi P", "room": "313" },
+        { "time": "11:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Ms. Mrunmayee R", "room": "313" }
+      ],
+      "I3": [
+        { "time": "08:30 - 09:30", "subject": "Indian Knowledge System", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "09:30 - 10:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "10:30 - 11:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Dr. Laxmi P", "room": "313" },
+        { "time": "11:30 - 12:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Ms. Mrunmayee R", "room": "313" }
+      ],
+      "J1": [
+        { "time": "11:30 - 12:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "12:30 - 13:30", "subject": "Indian Knowledge System", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "13:30 - 14:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "14:30 - 15:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Dr. Laxmi P", "room": "313" },
+        { "time": "15:30 - 16:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Ms. Mrunmayee R", "room": "313" }
+      ],
+      "J2": [
+        { "time": "11:30 - 12:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "12:30 - 13:30", "subject": "Indian Knowledge System", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "13:30 - 14:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "14:30 - 15:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Dr. Laxmi P", "room": "313" },
+        { "time": "15:30 - 16:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Ms. Mrunmayee R", "room": "313" }
+      ],
+      "J3": [
+        { "time": "11:30 - 12:30", "subject": "LUNCH BREAK", "teacher": "-", "room": "Canteen" },
+        { "time": "12:30 - 13:30", "subject": "Indian Knowledge System", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "13:30 - 14:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "14:30 - 15:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Dr. Laxmi P", "room": "313" },
+        { "time": "15:30 - 16:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Ms. Mrunmayee R", "room": "313" }
+      ]
+    }
   }
 }
