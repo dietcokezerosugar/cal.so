@@ -11,14 +11,16 @@ type ClassCardProps = {
 
 export function ClassCard({ classInfo }: ClassCardProps) {
   return (
-    <Card className="overflow-hidden shadow-md transition-shadow hover:shadow-xl">
-      <CardHeader className="flex flex-row items-center justify-between space-y-0 bg-primary/5 p-4">
-        <CardTitle className="flex items-center gap-2 text-lg font-bold text-primary">
-          <Book className="h-5 w-5" />
+    <Card className="overflow-hidden shadow-sm transition-shadow hover:shadow-md">
+      <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">
+        <CardTitle className="flex items-center gap-3 text-base font-semibold text-foreground">
+          <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-primary">
+            <Book className="h-5 w-5" />
+          </div>
           {classInfo.subject}
         </CardTitle>
       </CardHeader>
-      <CardContent className="grid grid-cols-1 gap-4 p-4 sm:grid-cols-3">
+      <CardContent className="grid grid-cols-2 gap-x-4 gap-y-2 p-4 pt-0 text-sm">
         <div className="flex items-center gap-2 text-muted-foreground">
           <Clock className="h-4 w-4" />
           <span>{classInfo.time}</span>
@@ -27,9 +29,9 @@ export function ClassCard({ classInfo }: ClassCardProps) {
           <User className="h-4 w-4" />
           <span>{classInfo.teacher}</span>
         </div>
-        <div className="flex items-center gap-2 text-muted-foreground">
+        <div className="col-span-2 flex items-center gap-2 text-muted-foreground">
           <MapPin className="h-4 w-4" />
-          <span>{classInfo.room}</span>
+          <span>Room: {classInfo.room}</span>
         </div>
       </CardContent>
     </Card>

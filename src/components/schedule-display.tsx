@@ -58,7 +58,7 @@ export function ScheduleDisplay({ prn, onChangePrn }: ScheduleDisplayProps) {
   
   return (
     <div className="space-y-6">
-      <header className="flex items-center justify-between">
+      <header className="flex items-center justify-between border-b pb-4">
         <div className="flex items-center gap-3">
           <BookMarked className="h-8 w-8 text-primary" />
           <h1 className="font-headline text-2xl font-bold tracking-tight">
@@ -67,8 +67,8 @@ export function ScheduleDisplay({ prn, onChangePrn }: ScheduleDisplayProps) {
         </div>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <Button variant="ghost" className="flex items-center gap-2">
-              <span className="font-bold">{group}</span>
+            <Button variant="ghost" className="flex items-center gap-2 rounded-full p-2">
+              <span className="font-bold sr-only sm:not-sr-only">{group}</span>
               <UserCircle className="h-6 w-6 text-muted-foreground" />
             </Button>
           </DropdownMenuTrigger>
@@ -88,9 +88,9 @@ export function ScheduleDisplay({ prn, onChangePrn }: ScheduleDisplayProps) {
       <div className="flex items-center justify-between">
         <div>
             <h2 className="text-lg font-semibold text-foreground">
-              Today's Schedule
+              Schedule
             </h2>
-            <p className="text-muted-foreground">
+            <p className="text-sm text-muted-foreground">
               {formatDate(selectedDate)}
             </p>
         </div>
@@ -101,7 +101,8 @@ export function ScheduleDisplay({ prn, onChangePrn }: ScheduleDisplayProps) {
                 className="w-auto justify-start text-left font-normal"
                 >
                 <CalendarIcon className="mr-2 h-4 w-4" />
-                <span>{formatDate(selectedDate)}</span>
+                <span className="hidden sm:inline">{formatDate(selectedDate)}</span>
+                <span className="sm:hidden">Change Date</span>
                 </Button>
             </PopoverTrigger>
             <PopoverContent className="w-auto p-0" align="end">
@@ -119,6 +120,7 @@ export function ScheduleDisplay({ prn, onChangePrn }: ScheduleDisplayProps) {
         <div className="space-y-4">
           <Skeleton className="h-32 w-full rounded-xl" />
           <Skeleton className="h-32 w-full rounded-xl" />
+          <Skeleton className="h-32 w-full rounded-xl" />
         </div>
       ) : error ? (
         <Card className="text-center">
@@ -133,7 +135,7 @@ export function ScheduleDisplay({ prn, onChangePrn }: ScheduleDisplayProps) {
           ))}
         </div>
       ) : (
-        <Card className="flex h-48 flex-col items-center justify-center gap-4 border-dashed">
+        <Card className="flex h-48 flex-col items-center justify-center gap-4 border-dashed bg-muted/50">
             <CardContent className="p-6 text-center">
                 <span className="text-5xl">🎉</span>
                 <p className="mt-4 text-lg font-medium">No lectures today!</p>
