@@ -62,7 +62,7 @@ export function ScheduleDisplay({ prn, onChangePrn }: ScheduleDisplayProps) {
         <div className="flex items-center gap-3">
           <BookMarked className="h-8 w-8 text-primary" />
           <h1 className="font-headline text-2xl font-bold tracking-tight">
-            ClassCast
+            Cal.so
           </h1>
         </div>
         <DropdownMenu>

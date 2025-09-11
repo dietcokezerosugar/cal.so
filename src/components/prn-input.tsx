@@ -48,7 +48,7 @@ export function PrnInput({ onPrnSubmit }: PrnInputProps) {
           <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 text-primary">
             <BookMarked className="h-8 w-8" />
           </div>
-          <CardTitle className="font-headline text-3xl">Welcome to ClassCast</CardTitle>
+          <CardTitle className="font-headline text-3xl">Welcome to Cal.so</CardTitle>
           <CardDescription>Your daily schedule, simplified.</CardDescription>
         </CardHeader>
         <CardContent>
