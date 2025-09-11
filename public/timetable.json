@@ -1,90 +1,752 @@
 {
   "schedule": {
-    "0": {
-      "A1": [],
-      "A2": [],
-      "B1": [],
-      "B2": []
-    },
     "1": {
       "A1": [
-        { "time": "09:00 - 10:00", "subject": "Data Structures", "teacher": "Dr. Smith", "room": "CS-101" },
-        { "time": "10:00 - 11:00", "subject": "Algorithms", "teacher": "Dr. Jones", "room": "CS-102" },
-        { "time": "11:00 - 12:00", "subject": "Database Systems", "teacher": "Prof. Davis", "room": "CS-103" }
+        { "time": "8:30-9:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "325" },
+        { "time": "10:30-11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "11:30-12:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "566" }
       ],
       "A2": [
-        { "time": "09:00 - 10:00", "subject": "Calculus II", "teacher": "Dr. Miller", "room": "M-201" },
-        { "time": "10:00 - 11:00", "subject": "Linear Algebra", "teacher": "Dr. Wilson", "room": "M-202" }
+        { "time": "8:30-9:30", "subject": "Data Structures using C", "teacher": "Ms. Preeti S", "room": "353" },
+        { "time": "10:30-11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "11:30-12:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "566" }
+      ],
+      "A3": [
+        { "time": "8:30-9:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "CC" },
+        { "time": "10:30-11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "11:30-12:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "566" }
       ],
       "B1": [
-        { "time": "09:00 - 10:00", "subject": "Physics I", "teacher": "Prof. Brown", "room": "P-301" },
-        { "time": "11:00 - 12:00", "subject": "Chemistry I", "teacher": "Prof. White", "room": "C-101" }
+        { "time": "8:30-9:30", "subject": "Data Structures using C", "teacher": "Ms. Preeti S", "room": "566" },
+        { "time": "9:30-10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "1:30-2:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "566" }
       ],
       "B2": [
-        { "time": "10:00 - 11:00", "subject": "Intro to Programming", "teacher": "Dr. Green", "room": "CS-104" }
+        { "time": "8:30-9:30", "subject": "Data Structures using C", "teacher": "Ms. Preeti S", "room": "566" },
+        { "time": "9:30-10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "1:30-2:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "566" }
+      ],
+      "B3": [
+        { "time": "8:30-9:30", "subject": "Data Structures using C", "teacher": "Ms. Preeti S", "room": "566" },
+        { "time": "9:30-10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "1:30-2:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "566" }
+      ],
+      "C1": [
+        { "time": "8:30-9:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "575" },
+        { "time": "9:30-10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" },
+        { "time": "10:30-11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" }
+      ],
+      "C2": [
+        { "time": "8:30-9:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "575" },
+        { "time": "9:30-10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" },
+        { "time": "10:30-11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" }
+      ],
+      "C3": [
+        { "time": "8:30-9:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "575" },
+        { "time": "9:30-10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" },
+        { "time": "10:30-11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" }
+      ],
+      "D1": [
+        { "time": "11:30-12:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" },
+        { "time": "12:30-1:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" },
+        { "time": "1:30-2:30", "subject": "Data Structures using C", "teacher": "Ms. Archana M", "room": "575" }
+      ],
+      "D2": [
+        { "time": "11:30-12:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" },
+        { "time": "12:30-1:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" },
+        { "time": "1:30-2:30", "subject": "Data Structures using C", "teacher": "Ms. Archana M", "room": "575" }
+      ],
+      "D3": [
+        { "time": "11:30-12:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" },
+        { "time": "12:30-1:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" },
+        { "time": "1:30-2:30", "subject": "Data Structures using C", "teacher": "Ms. Archana M", "room": "575" }
+      ],
+      "E1": [
+        { "time": "8:30-9:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "523" },
+        { "time": "9:30-10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "10:30-11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" }
+      ],
+      "E2": [
+        { "time": "8:30-9:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "523" },
+        { "time": "9:30-10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "10:30-11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" }
+      ],
+      "E3": [
+        { "time": "8:30-9:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "523" },
+        { "time": "9:30-10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "10:30-11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" }
+      ],
+      "F1": [
+        { "time": "11:30-12:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "523" },
+        { "time": "12:30-1:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "1:30-2:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" }
+      ],
+      "F2": [
+        { "time": "11:30-12:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "523" },
+        { "time": "12:30-1:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "1:30-2:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" }
+      ],
+      "F3": [
+        { "time": "11:30-12:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "523" },
+        { "time": "12:30-1:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "1:30-2:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" }
+      ],
+      "G1": [
+        { "time": "8:30-9:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "9:30-10:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "409" },
+        { "time": "10:30-11:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Ekta T", "room": "409" }
+      ],
+      "G2": [
+        { "time": "8:30-9:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "9:30-10:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "409" },
+        { "time": "10:30-11:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Ekta T", "room": "409" }
+      ],
+      "G3": [
+        { "time": "8:30-9:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "9:30-10:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "409" },
+        { "time": "10:30-11:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Ekta T", "room": "409" }
+      ],
+      "H1": [
+        { "time": "11:30-12:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "12:30-1:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "409" },
+        { "time": "1:30-2:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Ekta T", "room": "409" }
+      ],
+      "H2": [
+        { "time": "11:30-12:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "12:30-1:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "409" },
+        { "time": "1:30-2:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Ekta T", "room": "409" }
+      ],
+      "H3": [
+        { "time": "11:30-12:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "12:30-1:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "409" },
+        { "time": "1:30-2:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Ekta T", "room": "409" }
+      ],
+      "I1": [
+        { "time": "8:30-9:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Ms. Mrunmayee R", "room": "324" },
+        { "time": "10:30-11:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "313" },
+        { "time": "11:30-12:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" }
+      ],
+      "I2": [
+        { "time": "8:30-9:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "346" },
+        { "time": "10:30-11:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "313" },
+        { "time": "11:30-12:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" }
+      ],
+      "I3": [
+        { "time": "8:30-9:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "421" },
+        { "time": "10:30-11:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "313" },
+        { "time": "11:30-12:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" }
+      ],
+      "J1": [
+        { "time": "8:30-9:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Abhijeet Aher", "room": "313" },
+        { "time": "9:30-10:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "12:30-1:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "313" }
+      ],
+      "J2": [
+        { "time": "8:30-9:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Abhijeet Aher", "room": "313" },
+        { "time": "9:30-10:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "12:30-1:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "313" }
+      ],
+      "J3": [
+        { "time": "8:30-9:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Abhijeet Aher", "room": "313" },
+        { "time": "9:30-10:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "12:30-1:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "313" }
       ]
     },
     "2": {
       "A1": [
-        { "time": "10:00 - 11:00", "subject": "Operating Systems", "teacher": "Dr. Black", "room": "CS-201" }
+        { "time": "9:30-10:30", "subject": "Data Structures using C", "teacher": "Ms. Preeti S", "room": "566" },
+        { "time": "10:30-11:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "11:30-12:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "566" }
       ],
       "A2": [
-        { "time": "09:00 - 10:00", "subject": "Data Structures", "teacher": "Dr. Smith", "room": "CS-101" },
-        { "time": "11:00 - 12:00", "subject": "Algorithms", "teacher": "Dr. Jones", "room": "CS-102" }
+        { "time": "9:30-10:30", "subject": "Data Structures using C", "teacher": "Ms. Preeti S", "room": "566" },
+        { "time": "10:30-11:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "11:30-12:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "566" }
+      ],
+      "A3": [
+        { "time": "9:30-10:30", "subject": "Data Structures using C", "teacher": "Ms. Preeti S", "room": "566" },
+        { "time": "10:30-11:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "11:30-12:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "566" }
       ],
       "B1": [
-        { "time": "09:00 - 10:00", "subject": "Calculus II", "teacher": "Dr. Miller", "room": "M-201" }
+        { "time": "8:30-9:30", "subject": "Data Structures using C", "teacher": "Ms. Preeti S", "room": "353" },
+        { "time": "10:30-11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "11:30-12:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "566" }
       ],
       "B2": [
-        { "time": "10:00 - 11:00", "subject": "Physics I", "teacher": "Prof. Brown", "room": "P-301" },
-        { "time": "11:00 - 12:00", "subject": "Linear Algebra", "teacher": "Dr. Wilson", "room": "M-202" }
+        { "time": "8:30-9:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "325" },
+        { "time": "10:30-11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "11:30-12:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "566" }
+      ],
+      "B3": [
+        { "time": "8:30-9:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "CC" },
+        { "time": "10:30-11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "11:30-12:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "566" }
+      ],
+      "C1": [
+        { "time": "8:30-9:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "575" },
+        { "time": "9:30-10:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "575" },
+        { "time": "10:30-11:30", "subject": "Data Structures using C", "teacher": "Ms. Preeti S", "room": "353" }
+      ],
+      "C2": [
+        { "time": "8:30-9:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "575" },
+        { "time": "9:30-10:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "575" },
+        { "time": "10:30-11:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "325" }
+      ],
+      "C3": [
+        { "time": "8:30-9:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "575" },
+        { "time": "9:30-10:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "575" },
+        { "time": "10:30-11:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "CC" }
+      ],
+      "D1": [
+        { "time": "10:30-11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" },
+        { "time": "11:30-12:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Advait Walke", "room": "575" },
+        { "time": "12:30-1:30", "subject": "Data Structures using C", "teacher": "Ms. Archana M", "room": "353" }
+      ],
+      "D2": [
+        { "time": "10:30-11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" },
+        { "time": "11:30-12:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Advait Walke", "room": "575" },
+        { "time": "12:30-1:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "325" }
+      ],
+      "D3": [
+        { "time": "10:30-11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" },
+        { "time": "11:30-12:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Advait Walke", "room": "575" },
+        { "time": "12:30-1:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "CC" }
+      ],
+      "E1": [
+        { "time": "11:30-12:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "12:30-1:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" },
+        { "time": "1:30-2:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "523" }
+      ],
+      "E2": [
+        { "time": "11:30-12:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "12:30-1:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" },
+        { "time": "1:30-2:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "523" }
+      ],
+      "E3": [
+        { "time": "11:30-12:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "12:30-1:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" },
+        { "time": "1:30-2:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "523" }
+      ],
+      "F1": [
+        { "time": "8:30-9:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "523" },
+        { "time": "9:30-10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "10:30-11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" }
+      ],
+      "F2": [
+        { "time": "8:30-9:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "523" },
+        { "time": "9:30-10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "10:30-11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" }
+      ],
+      "F3": [
+        { "time": "8:30-9:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "523" },
+        { "time": "9:30-10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "523" },
+        { "time": "10:30-11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" }
+      ],
+      "G1": [
+        { "time": "11:30-12:30", "subject": "Data Structures using C", "teacher": "Ms. Achal K", "room": "409" },
+        { "time": "12:30-1:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "1:30-2:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "409" }
+      ],
+      "G2": [
+        { "time": "11:30-12:30", "subject": "Data Structures using C", "teacher": "Ms. Achal K", "room": "409" },
+        { "time": "12:30-1:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "1:30-2:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "409" }
+      ],
+      "G3": [
+        { "time": "11:30-12:30", "subject": "Data Structures using C", "teacher": "Ms. Achal K", "room": "409" },
+        { "time": "12:30-1:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "1:30-2:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "409" }
+      ],
+      "H1": [
+        { "time": "8:30-9:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "9:30-10:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "409" },
+        { "time": "10:30-11:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Rajkumar C", "room": "409" }
+      ],
+      "H2": [
+        { "time": "8:30-9:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "9:30-10:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "409" },
+        { "time": "10:30-11:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Rajkumar C", "room": "409" }
+      ],
+      "H3": [
+        { "time": "8:30-9:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "409" },
+        { "time": "9:30-10:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "409" },
+        { "time": "10:30-11:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Rajkumar C", "room": "409" }
+      ],
+      "I1": [
+        { "time": "1:30-2:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Abhijeet Aher", "room": "313" },
+        { "time": "8:30-9:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Abhijeet Aher", "room": "313" },
+        { "time": "9:30-10:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" }
+      ],
+      "I2": [
+        { "time": "1:30-2:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Abhijeet Aher", "room": "313" },
+        { "time": "8:30-9:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Abhijeet Aher", "room": "313" },
+        { "time": "9:30-10:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" }
+      ],
+      "I3": [
+        { "time": "1:30-2:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Abhijeet Aher", "room": "313" },
+        { "time": "8:30-9:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Abhijeet Aher", "room": "313" },
+        { "time": "9:30-10:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" }
+      ],
+      "J1": [
+        { "time": "8:30-9:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "346" },
+        { "time": "10:30-11:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "313" },
+        { "time": "11:30-12:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" }
+      ],
+      "J2": [
+        { "time": "8:30-9:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Ms. Mrunmayee R", "room": "324" },
+        { "time": "10:30-11:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "313" },
+        { "time": "11:30-12:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" }
+      ],
+      "J3": [
+        { "time": "8:30-9:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "421" },
+        { "time": "10:30-11:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "313" },
+        { "time": "11:30-12:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" }
       ]
     },
     "3": {
-        "A1": [
-            { "time": "09:00 - 10:00", "subject": "Computer Networks", "teacher": "Dr. Taylor", "room": "CS-202" },
-            { "time": "10:00 - 11:00", "subject": "Software Engineering", "teacher": "Prof. Moore", "room": "CS-203" }
-        ],
-        "A2": [
-            { "time": "11:00 - 12:00", "subject": "Discrete Mathematics", "teacher": "Dr. Martin", "room": "M-203" }
-        ],
-        "B1": [
-            { "time": "09:00 - 10:00", "subject": "Digital Logic Design", "teacher": "Prof. Harris", "room": "E-101" }
-        ],
-        "B2": [
-            { "time": "10:00 - 11:00", "subject": "Web Development", "teacher": "Dr. Clark", "room": "CS-204" },
-            { "time": "11:00 - 12:00", "subject": "Mobile App Development", "teacher": "Dr. Lewis", "room": "CS-205" }
-        ]
+      "A1": [
+        { "time": "8:30-9:30", "subject": "Indian Knowledge System", "teacher": "Mr. Ajinkya J", "room": "566" },
+        { "time": "9:30-10:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "10:30-11:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Ms. Preeti S", "room": "566" }
+      ],
+      "A2": [
+        { "time": "8:30-9:30", "subject": "Indian Knowledge System", "teacher": "Mr. Ajinkya J", "room": "566" },
+        { "time": "9:30-10:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "10:30-11:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Ms. Preeti S", "room": "566" }
+      ],
+      "A3": [
+        { "time": "8:30-9:30", "subject": "Indian Knowledge System", "teacher": "Mr. Ajinkya J", "room": "566" },
+        { "time": "9:30-10:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Dr. RishiKant R", "room": "566" },
+        { "time": "10:30-11:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Ms. Preeti S", "room": "566" }
+      ],
+      "B1": [
+        { "time": "10:30-11:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "325" },
+        { "time": "12:30-1:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "1:30-2:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" }
+      ],
+      "B2": [
+        { "time": "10:30-11:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "CC" },
+        { "time": "12:30-1:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "1:30-2:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" }
+      ],
+      "B3": [
+        { "time": "10:30-11:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "CC" },
+        { "time": "12:30-1:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "1:30-2:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" }
+      ],
+      "C1": [
+        { "time": "8:30-9:30", "subject": "Data Structures using C", "teacher": "Ms. Preeti S", "room": "353" },
+        { "time": "10:30-11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" },
+        { "time": "11:30-12:30", "subject": "Data Structures using C", "teacher": "Ms. Preeti S", "room": "575" }
+      ],
+      "C2": [
+        { "time": "8:30-9:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "CC" },
+        { "time": "10:30-11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" },
+        { "time": "11:30-12:30", "subject": "Data Structures using C", "teacher": "Ms. Preeti S", "room": "575" }
+      ],
+      "C3": [
+        { "time": "8:30-9:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "325" },
+        { "time": "10:30-11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" },
+        { "time": "11:30-12:30", "subject": "Data Structures using C", "teacher": "Ms. Preeti S", "room": "575" }
+      ],
+      "D1": [
+        { "time": "8:30-9:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Advait Walke", "room": "575" },
+        { "time": "9:30-10:30", "subject": "Data Structures using C", "teacher": "Ms. Archana M", "room": "575" },
+        { "time": "10:30-11:30", "subject": "Data Structures using C", "teacher": "Ms. Archana M", "room": "353" }
+      ],
+      "D2": [
+        { "time": "8:30-9:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Advait Walke", "room": "575" },
+        { "time": "9:30-10:30", "subject": "Data Structures using C", "teacher": "Ms. Archana M", "room": "575" },
+        { "time": "10:30-11:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "325" }
+      ],
+      "D3": [
+        { "time": "8:30-9:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Advait Walke", "room": "575" },
+        { "time": "9:30-10:30", "subject": "Data Structures using C", "teacher": "Ms. Archana M", "room": "575" },
+        { "time": "10:30-11:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "CC" }
+      ],
+      "E1": [
+        { "time": "8:30-9:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "353" },
+        { "time": "10:30-11:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Advait Walke", "room": "523" },
+        { "time": "11:30-12:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" }
+      ],
+      "E2": [
+        { "time": "8:30-9:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "325" },
+        { "time": "10:30-11:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Advait Walke", "room": "523" },
+        { "time": "11:30-12:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" }
+      ],
+      "E3": [
+        { "time": "8:30-9:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "CC" },
+        { "time": "10:30-11:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Advait Walke", "room": "523" },
+        { "time": "11:30-12:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" }
+      ],
+      "F1": [
+        { "time": "8:30-9:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "523" },
+        { "time": "9:30-10:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" },
+        { "time": "10:30-11:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "325" }
+      ],
+      "F2": [
+        { "time": "8:30-9:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "523" },
+        { "time": "9:30-10:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" },
+        { "time": "10:30-11:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "CC" }
+      ],
+      "F3": [
+        { "time": "8:30-9:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "523" },
+        { "time": "9:30-10:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Anuj K", "room": "523" },
+        { "time": "10:30-11:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "353" }
+      ],
+      "G1": [
+        { "time": "8:30-9:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Ekta T", "room": "409" },
+        { "time": "9:30-10:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Rajkumar C", "room": "409" },
+        { "time": "10:30-11:30", "subject": "Data Structures using C", "teacher": "Ms. Achal K", "room": "409" }
+      ],
+      "G2": [
+        { "time": "8:30-9:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Ekta T", "room": "409" },
+        { "time": "9:30-10:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Rajkumar C", "room": "409" },
+        { "time": "10:30-11:30", "subject": "Data Structures using C", "teacher": "Ms. Achal K", "room": "409" }
+      ],
+      "G3": [
+        { "time": "8:30-9:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Ekta T", "room": "409" },
+        { "time": "9:30-10:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Rajkumar C", "room": "409" },
+        { "time": "10:30-11:30", "subject": "Data Structures using C", "teacher": "Ms. Achal K", "room": "409" }
+      ],
+      "H1": [
+        { "time": "11:30-12:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "409" },
+        { "time": "12:30-1:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Rajkumar C", "room": "409" },
+        { "time": "1:30-2:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Ekta T", "room": "409" }
+      ],
+      "H2": [
+        { "time": "11:30-12:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "409" },
+        { "time": "12:30-1:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Rajkumar C", "room": "409" },
+        { "time": "1:30-2:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Ekta T", "room": "409" }
+      ],
+      "H3": [
+        { "time": "11:30-12:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "409" },
+        { "time": "12:30-1:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Rajkumar C", "room": "409" },
+        { "time": "1:30-2:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Ekta T", "room": "409" }
+      ],
+      "I1": [
+        { "time": "8:30-9:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "346" },
+        { "time": "10:30-11:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "11:30-12:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "313" }
+      ],
+      "I2": [
+        { "time": "8:30-9:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "421" },
+        { "time": "10:30-11:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "11:30-12:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "313" }
+      ],
+      "I3": [
+        { "time": "8:30-9:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Ms. Mrunmayee R", "room": "324" },
+        { "time": "10:30-11:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "11:30-12:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "313" }
+      ],
+      "J1": [
+        { "time": "8:30-9:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Abhijeet Aher", "room": "313" },
+        { "time": "9:30-10:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "313" },
+        { "time": "10:30-11:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "346" }
+      ],
+      "J2": [
+        { "time": "8:30-9:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Abhijeet Aher", "room": "313" },
+        { "time": "9:30-10:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "313" },
+        { "time": "10:30-11:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Ms. Mrunmayee R", "room": "324" }
+      ],
+      "J3": [
+        { "time": "8:30-9:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Abhijeet Aher", "room": "313" },
+        { "time": "9:30-10:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "313" },
+        { "time": "10:30-11:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "421" }
+      ]
     },
     "4": {
-        "A1": [
-            { "time": "10:00 - 11:00", "subject": "Artificial Intelligence", "teacher": "Dr. Walker", "room": "CS-301" }
-        ],
-        "A2": [
-            { "time": "09:00 - 10:00", "subject": "Computer Graphics", "teacher": "Prof. Hall", "room": "CS-302" }
-        ],
-        "B1": [
-            { "time": "11:00 - 12:00", "subject": "Machine Learning", "teacher": "Dr. Allen", "room": "CS-303" }
-        ],
-        "B2": [
-            { "time": "09:00 - 10:00", "subject": "Cybersecurity", "teacher": "Prof. Young", "room": "CS-304" }
-        ]
+      "A1": [
+        { "time": "11:30-12:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "12:30-1:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "2:30-3:30", "subject": "Data Structures using C", "teacher": "Ms. Preeti S", "room": "353" }
+      ],
+      "A2": [
+        { "time": "11:30-12:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "12:30-1:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "2:30-3:30", "subject": "Data Structures using C", "teacher": "Ms. Preeti S", "room": "353" }
+      ],
+      "A3": [
+        { "time": "11:30-12:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "12:30-1:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "2:30-3:30", "subject": "Data Structures using C", "teacher": "Ms. Preeti S", "room": "353" }
+      ],
+      "B1": [
+        { "time": "12:30-1:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "1:30-2:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "566" },
+        { "time": "2:30-3:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" }
+      ],
+      "B2": [
+        { "time": "12:30-1:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "1:30-2:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "566" },
+        { "time": "2:30-3:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" }
+      ],
+      "B3": [
+        { "time": "12:30-1:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Gaurav S", "room": "566" },
+        { "time": "1:30-2:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "566" },
+        { "time": "2:30-3:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. RishiKant R", "room": "566" }
+      ],
+      "C1": [
+        { "time": "8:30-9:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "575" },
+        { "time": "9:30-10:30", "subject": "Data Structures using C", "teacher": "Ms. Preeti S", "room": "575" },
+        { "time": "10:30-11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" }
+      ],
+      "C2": [
+        { "time": "8:30-9:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "575" },
+        { "time": "9:30-10:30", "subject": "Data Structures using C", "teacher": "Ms. Preeti S", "room": "575" },
+        { "time": "10:30-11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" }
+      ],
+      "C3": [
+        { "time": "8:30-9:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "575" },
+        { "time": "9:30-10:30", "subject": "Data Structures using C", "teacher": "Ms. Preeti S", "room": "575" },
+        { "time": "10:30-11:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" }
+      ],
+      "D1": [
+        { "time": "11:30-12:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "575" },
+        { "time": "12:30-1:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" },
+        { "time": "1:30-2:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" }
+      ],
+      "D2": [
+        { "time": "11:30-12:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "575" },
+        { "time": "12:30-1:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" },
+        { "time": "1:30-2:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" }
+      ],
+      "D3": [
+        { "time": "11:30-12:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "575" },
+        { "time": "12:30-1:30", "subject": "Applied Computational Mathematics", "teacher": "Dr. Vandna S", "room": "575" },
+        { "time": "1:30-2:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" }
+      ],
+      "E1": [
+        { "time": "12:30-1:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Advait Walke", "room": "523" },
+        { "time": "2:30-3:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "353" }
+      ],
+      "E2": [
+        { "time": "12:30-1:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Advait Walke", "room": "523" },
+        { "time": "2:30-3:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "325" }
+      ],
+      "E3": [
+        { "time": "12:30-1:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Advait Walke", "room": "523" },
+        { "time": "2:30-3:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "CC" }
+      ],
+      "F1": [
+        { "time": "8:30-9:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "CC" },
+        { "time": "10:30-11:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Advait Walke", "room": "523" },
+        { "time": "11:30-12:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "523" }
+      ],
+      "F2": [
+        { "time": "8:30-9:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr.Dipti C", "room": "325" },
+        { "time": "10:30-11:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Advait Walke", "room": "523" },
+        { "time": "11:30-12:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "523" }
+      ],
+      "F3": [
+        { "time": "8:30-9:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "353" },
+        { "time": "10:30-11:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Advait Walke", "room": "523" },
+        { "time": "11:30-12:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "523" }
+      ],
+      "G1": [
+        { "time": "8:30-9:30", "subject": "Data Structures using C", "teacher": "Ms. Achal K", "room": "353" },
+        { "time": "10:30-11:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "CC" },
+        { "time": "12:30-1:30", "subject": "Data Structures using C", "teacher": "Ms. Achal K", "room": "353" }
+      ],
+      "G2": [
+        { "time": "8:30-9:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "CC" },
+        { "time": "10:30-11:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "325" },
+        { "time": "12:30-1:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "325" }
+      ],
+      "G3": [
+        { "time": "8:30-9:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "325" },
+        { "time": "10:30-11:30", "subject": "Data Structures using C", "teacher": "Ms. Achal K", "room": "353" },
+        { "time": "12:30-1:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "CC" }
+      ],
+      "H1": [
+        { "time": "10:30-11:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "409" },
+        { "time": "12:30-1:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "353" },
+        { "time": "2:30-3:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Ekta T", "room": "409" }
+      ],
+      "H2": [
+        { "time": "10:30-11:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "409" },
+        { "time": "12:30-1:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "325" },
+        { "time": "2:30-3:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Ekta T", "room": "409" }
+      ],
+      "H3": [
+        { "time": "10:30-11:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "409" },
+        { "time": "12:30-1:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "CC" },
+        { "time": "2:30-3:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Ekta T", "room": "409" }
+      ],
+      "I1": [
+        { "time": "8:30-9:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "313" },
+        { "time": "9:30-10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Ms. Mrunmayee R", "room": "313" },
+        { "time": "10:30-11:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "313" }
+      ],
+      "I2": [
+        { "time": "8:30-9:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "313" },
+        { "time": "9:30-10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Ms. Mrunmayee R", "room": "313" },
+        { "time": "10:30-11:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "313" }
+      ],
+      "I3": [
+        { "time": "8:30-9:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "313" },
+        { "time": "9:30-10:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Ms. Mrunmayee R", "room": "313" },
+        { "time": "10:30-11:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "313" }
+      ],
+      "J1": [
+        { "time": "11:30-12:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Ms. Mrunmayee R", "room": "313" },
+        { "time": "12:30-1:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "313" },
+        { "time": "1:30-2:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Abhijeet Aher", "room": "313" }
+      ],
+      "J2": [
+        { "time": "11:30-12:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Ms. Mrunmayee R", "room": "313" },
+        { "time": "12:30-1:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "313" },
+        { "time": "1:30-2:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Abhijeet Aher", "room": "313" }
+      ],
+      "J3": [
+        { "time": "11:30-12:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Ms. Mrunmayee R", "room": "313" },
+        { "time": "12:30-1:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "313" },
+        { "time": "1:30-2:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Abhijeet Aher", "room": "313" }
+      ]
     },
     "5": {
-        "A1": [
-          { "time": "09:00 - 10:00", "subject": "Compiler Design", "teacher": "Dr. King", "room": "CS-305" }
-        ],
-        "A2": [],
-        "B1": [
-          { "time": "10:00 - 11:00", "subject": "Cloud Computing", "teacher": "Dr. Wright", "room": "CS-306" }
-        ],
-        "B2": []
-    },
-    "6": {
-      "A1": [],
-      "A2": [],
-      "B1": [],
-      "B2": []
+      "A1": [
+        { "time": "12:30-1:30", "subject": "Data Structures using C", "teacher": "Ms. Preeti S", "room": "566" }
+      ],
+      "A2": [
+        { "time": "12:30-1:30", "subject": "Data Structures using C", "teacher": "Ms. Preeti S", "room": "566" }
+      ],
+      "A3": [
+        { "time": "12:30-1:30", "subject": "Data Structures using C", "teacher": "Ms. Preeti S", "room": "566" }
+      ],
+      "B1": [
+        { "time": "3:30-4:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "566" },
+        { "time": "8:30-9:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "566" }
+      ],
+      "B2": [
+        { "time": "3:30-4:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "566" },
+        { "time": "8:30-9:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "566" }
+      ],
+      "B3": [
+        { "time": "3:30-4:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "566" },
+        { "time": "8:30-9:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "566" }
+      ],
+      "C1": [
+        { "time": "1:30-2:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" },
+        { "time": "2:30-3:30", "subject": "Data Structures using C", "teacher": "Ms. Preeti S", "room": "575" },
+        { "time": "3:30-4:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "575" }
+      ],
+      "C2": [
+        { "time": "1:30-2:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" },
+        { "time": "2:30-3:30", "subject": "Data Structures using C", "teacher": "Ms. Preeti S", "room": "575" },
+        { "time": "3:30-4:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "575" }
+      ],
+      "C3": [
+        { "time": "1:30-2:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" },
+        { "time": "2:30-3:30", "subject": "Data Structures using C", "teacher": "Ms. Preeti S", "room": "575" },
+        { "time": "3:30-4:30", "subject": "Modern Computer Hardware", "teacher": "M Arnold Silway", "room": "575" }
+      ],
+      "D1": [
+        { "time": "8:30-9:30", "subject": "Data Structures using C", "teacher": "Ms. Archana M", "room": "575" },
+        { "time": "9:30-10:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "575" },
+        { "time": "10:30-11:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" }
+      ],
+      "D2": [
+        { "time": "8:30-9:30", "subject": "Data Structures using C", "teacher": "Ms. Archana M", "room": "575" },
+        { "time": "9:30-10:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "575" },
+        { "time": "10:30-11:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" }
+      ],
+      "D3": [
+        { "time": "8:30-9:30", "subject": "Data Structures using C", "teacher": "Ms. Archana M", "room": "575" },
+        { "time": "9:30-10:30", "subject": "Fundamentals of Web Technology", "teacher": "Dr. Manjusha J", "room": "575" },
+        { "time": "10:30-11:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Dr. Dipika P", "room": "575" }
+      ],
+      "E1": [
+        { "time": "8:30-9:30", "subject": "Indian Knowledge System", "teacher": "Mr. Ajinkya J", "room": "523" },
+        { "time": "9:30-10:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Dr. Anuj K", "room": "523" },
+        { "time": "10:30-11:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Dr.Dipti C", "room": "523" }
+      ],
+      "E2": [
+        { "time": "8:30-9:30", "subject": "Indian Knowledge System", "teacher": "Mr. Ajinkya J", "room": "523" },
+        { "time": "9:30-10:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Dr. Anuj K", "room": "523" },
+        { "time": "10:30-11:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Dr.Dipti C", "room": "523" }
+      ],
+      "E3": [
+        { "time": "8:30-9:30", "subject": "Indian Knowledge System", "teacher": "Mr. Ajinkya J", "room": "523" },
+        { "time": "9:30-10:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Dr. Anuj K", "room": "523" },
+        { "time": "10:30-11:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Dr.Dipti C", "room": "523" }
+      ],
+      "F1": [
+        { "time": "9:30-10:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Mrs. Anagha Ekbote", "room": "430" },
+        { "time": "10:30-11:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Dr.Dipti C", "room": "430" },
+        { "time": "12:30-1:30", "subject": "Indian Knowledge System", "teacher": "Mr. Ajinkya J", "room": "523" }
+      ],
+      "F2": [
+        { "time": "9:30-10:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Mrs. Anagha Ekbote", "room": "430" },
+        { "time": "10:30-11:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Dr.Dipti C", "room": "430" },
+        { "time": "12:30-1:30", "subject": "Indian Knowledge System", "teacher": "Mr. Ajinkya J", "room": "523" }
+      ],
+      "F3": [
+        { "time": "9:30-10:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Mrs. Anagha Ekbote", "room": "430" },
+        { "time": "10:30-11:30", "subject": "Basic Electrical and Electronics Engineering (Tutorial)", "teacher": "Dr.Dipti C", "room": "430" },
+        { "time": "12:30-1:30", "subject": "Indian Knowledge System", "teacher": "Mr. Ajinkya J", "room": "523" }
+      ],
+      "G1": [
+        { "time": "8:30-9:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Rajkumar C", "room": "409" },
+        { "time": "9:30-10:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Ekta T", "room": "409" },
+        { "time": "10:30-11:30", "subject": "Indian Knowledge System", "teacher": "Mr. Ajinkya J", "room": "409" }
+      ],
+      "G2": [
+        { "time": "8:30-9:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Rajkumar C", "room": "409" },
+        { "time": "9:30-10:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Ekta T", "room": "409" },
+        { "time": "10:30-11:30", "subject": "Indian Knowledge System", "teacher": "Mr. Ajinkya J", "room": "409" }
+      ],
+      "G3": [
+        { "time": "8:30-9:30", "subject": "Modern Computer Hardware", "teacher": "Mr. Rajkumar C", "room": "409" },
+        { "time": "9:30-10:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Ekta T", "room": "409" },
+        { "time": "10:30-11:30", "subject": "Indian Knowledge System", "teacher": "Mr. Ajinkya J", "room": "409" }
+      ],
+      "H1": [
+        { "time": "8:30-9:30", "subject": "Indian Knowledge System", "teacher": "Mr. Ajinkya J", "room": "409" },
+        { "time": "9:30-10:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Mrs. Anagha Ekbote", "room": "409" },
+        { "time": "10:30-11:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "CC" }
+      ],
+      "H2": [
+        { "time": "8:30-9:30", "subject": "Indian Knowledge System", "teacher": "Mr. Ajinkya J", "room": "409" },
+        { "time": "9:30-10:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Mrs. Anagha Ekbote", "room": "409" },
+        { "time": "10:30-11:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Mrs. Jyoti Tipale", "room": "325" }
+      ],
+      "H3": [
+        { "time": "8:30-9:30", "subject": "Indian Knowledge System", "teacher": "Mr. Ajinkya J", "room": "409" },
+        { "time": "9:30-10:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Mrs. Anagha Ekbote", "room": "409" },
+        { "time": "10:30-11:30", "subject": "Data Structures using C", "teacher": "Mrs. Anagha Ekbote", "room": "353" }
+      ],
+      "I1": [
+        { "time": "8:30-9:30", "subject": "Indian Knowledge System", "teacher": "Mr. Ajinkya J", "room": "313" },
+        { "time": "9:30-10:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "10:30-11:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Mrs. Anagha Ekbote", "room": "313" }
+      ],
+      "I2": [
+        { "time": "8:30-9:30", "subject": "Indian Knowledge System", "teacher": "Mr. Ajinkya J", "room": "313" },
+        { "time": "9:30-10:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "10:30-11:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Mrs. Anagha Ekbote", "room": "313" }
+      ],
+      "I3": [
+        { "time": "8:30-9:30", "subject": "Indian Knowledge System", "teacher": "Mr. Ajinkya J", "room": "313" },
+        { "time": "9:30-10:30", "subject": "Applied Computational Mathematics (Tutorial)", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "10:30-11:30", "subject": "Data Structures using C (Tutorial)", "teacher": "Mrs. Anagha Ekbote", "room": "313" }
+      ],
+      "J1": [
+        { "time": "8:30-9:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "313" },
+        { "time": "9:30-10:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "10:30-11:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Ms. Mrunmayee R", "room": "313" }
+      ],
+      "J2": [
+        { "time": "8:30-9:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "313" },
+        { "time": "9:30-10:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "10:30-11:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Ms. Mrunmayee R", "room": "313" }
+      ],
+      "J3": [
+        { "time": "8:30-9:30", "subject": "Fundamentals of Web Technology", "teacher": "Mrs. Akanksha S", "room": "313" },
+        { "time": "9:30-10:30", "subject": "Applied Computational Mathematics", "teacher": "Mrs. Sunita S", "room": "313" },
+        { "time": "10:30-11:30", "subject": "Basic Electrical and Electronics Engineering", "teacher": "Ms. Mrunmayee R", "room": "313" }
+      ]
     }
   }
 }
