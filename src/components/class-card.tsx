@@ -21,10 +21,12 @@ export function ClassCard({ classInfo }: ClassCardProps) {
           <div className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-lg ${isLab ? 'bg-amber-500/10 text-amber-500' : 'bg-primary/10 text-primary'}`}>
             <Icon className="h-5 w-5" />
           </div>
-          {classInfo.subject.replace(/\s\((Tutorial|Lab)\)/i, "")}
+          <span className="flex-1">{classInfo.subject.replace(/\s\((Tutorial|Lab)\)/i, "")}</span>
         </CardTitle>
         {isLab && (
-            <Badge variant="secondary" className="border-amber-500/50 bg-amber-500/10 text-amber-500">Lab Session</Badge>
+            <Badge variant="secondary" className="whitespace-nowrap border-amber-500/50 bg-amber-500/10 text-amber-500">
+              {classInfo.subject.toLowerCase().includes("(tutorial)") ? "Tutorial" : "Lab"}
+            </Badge>
         )}
       </CardHeader>
       <CardContent className="grid grid-cols-2 gap-x-4 gap-y-2 p-4 pt-0 text-sm">
