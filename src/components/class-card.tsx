@@ -18,13 +18,13 @@ export function ClassCard({ classInfo }: ClassCardProps) {
     <Card className="overflow-hidden shadow-sm transition-shadow hover:shadow-md bg-card">
       <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">
         <CardTitle className="flex items-center gap-3 text-base font-semibold text-card-foreground">
-          <div className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-lg ${isLab ? 'bg-accent text-accent-foreground' : 'bg-primary/10 text-primary'}`}>
+          <div className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-lg ${isLab ? 'bg-amber-500/10 text-amber-500' : 'bg-primary/10 text-primary'}`}>
             <Icon className="h-5 w-5" />
           </div>
           {classInfo.subject.replace(/\s\((Tutorial|Lab)\)/i, "")}
         </CardTitle>
         {isLab && (
-            <Badge variant="secondary">Lab Session</Badge>
+            <Badge variant="secondary" className="border-amber-500/50 bg-amber-500/10 text-amber-500">Lab Session</Badge>
         )}
       </CardHeader>
       <CardContent className="grid grid-cols-2 gap-x-4 gap-y-2 p-4 pt-0 text-sm">
