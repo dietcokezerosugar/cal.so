@@ -1,102 +1,90 @@
 {
   "schedule": {
+    "0": {
+      "A1": [],
+      "A2": [],
+      "B1": [],
+      "B2": []
+    },
     "1": {
       "A1": [
-        { "time": "09:00 - 10:00", "subject": "Advanced Algorithms", "teacher": "Dr. Turing", "room": "CS-101" },
-        { "time": "11:00 - 12:00", "subject": "Compiler Design", "teacher": "Dr. Hopper", "room": "CS-102" },
-        { "time": "14:00 - 15:00", "subject": "Discrete Mathematics", "teacher": "Dr. Euler", "room": "M-201" }
+        { "time": "09:00 - 10:00", "subject": "Data Structures", "teacher": "Dr. Smith", "room": "CS-101" },
+        { "time": "10:00 - 11:00", "subject": "Algorithms", "teacher": "Dr. Jones", "room": "CS-102" },
+        { "time": "11:00 - 12:00", "subject": "Database Systems", "teacher": "Prof. Davis", "room": "CS-103" }
       ],
       "A2": [
-        { "time": "10:00 - 11:00", "subject": "Database Systems", "teacher": "Dr. Codd", "room": "DB-201" },
-        { "time": "13:00 - 14:00", "subject": "Operating Systems", "teacher": "Dr. Tanenbaum", "room": "OS-202" },
-        { "time": "15:00 - 16:00", "subject": "Linear Algebra", "teacher": "Dr. Gilbert", "room": "M-202" }
+        { "time": "09:00 - 10:00", "subject": "Calculus II", "teacher": "Dr. Miller", "room": "M-201" },
+        { "time": "10:00 - 11:00", "subject": "Linear Algebra", "teacher": "Dr. Wilson", "room": "M-202" }
       ],
       "B1": [
-        { "time": "09:00 - 10:00", "subject": "Database Systems", "teacher": "Dr. Codd", "room": "DB-201" },
-        { "time": "11:00 - 12:00", "subject": "Operating Systems", "teacher": "Dr. Tanenbaum", "room": "OS-202" },
-        { "time": "14:00 - 15:00", "subject": "Linear Algebra", "teacher": "Dr. Gilbert", "room": "M-202" }
+        { "time": "09:00 - 10:00", "subject": "Physics I", "teacher": "Prof. Brown", "room": "P-301" },
+        { "time": "11:00 - 12:00", "subject": "Chemistry I", "teacher": "Prof. White", "room": "C-101" }
       ],
       "B2": [
-        { "time": "10:00 - 11:00", "subject": "Advanced Algorithms", "teacher": "Dr. Turing", "room": "CS-101" },
-        { "time": "13:00 - 14:00", "subject": "Compiler Design", "teacher": "Dr. Hopper", "room": "CS-102" },
-        { "time": "15:00 - 16:00", "subject": "Discrete Mathematics", "teacher": "Dr. Euler", "room": "M-201" }
+        { "time": "10:00 - 11:00", "subject": "Intro to Programming", "teacher": "Dr. Green", "room": "CS-104" }
       ]
     },
     "2": {
       "A1": [
-        { "time": "10:00 - 11:00", "subject": "Computer Networks", "teacher": "Dr. Cerf", "room": "CN-302" },
-        { "time": "13:00 - 14:00", "subject": "Artificial Intelligence", "teacher": "Dr. McCarthy", "room": "AI-301" }
+        { "time": "10:00 - 11:00", "subject": "Operating Systems", "teacher": "Dr. Black", "room": "CS-201" }
       ],
       "A2": [
-        { "time": "09:00 - 10:00", "subject": "Cryptography", "teacher": "Dr. Rivest", "room": "CR-402" },
-        { "time": "11:00 - 12:00", "subject": "Software Engineering", "teacher": "Dr. Brooks", "room": "SE-401" }
+        { "time": "09:00 - 10:00", "subject": "Data Structures", "teacher": "Dr. Smith", "room": "CS-101" },
+        { "time": "11:00 - 12:00", "subject": "Algorithms", "teacher": "Dr. Jones", "room": "CS-102" }
       ],
       "B1": [
-        { "time": "10:00 - 11:00", "subject": "Cryptography", "teacher": "Dr. Rivest", "room": "CR-402" },
-        { "time": "13:00 - 14:00", "subject": "Software Engineering", "teacher": "Dr. Brooks", "room": "SE-401" }
+        { "time": "09:00 - 10:00", "subject": "Calculus II", "teacher": "Dr. Miller", "room": "M-201" }
       ],
       "B2": [
-        { "time": "09:00 - 10:00", "subject": "Computer Networks", "teacher": "Dr. Cerf", "room": "CN-302" },
-        { "time": "11:00 - 12:00", "subject": "Artificial Intelligence", "teacher": "Dr. McCarthy", "room": "AI-301" }
+        { "time": "10:00 - 11:00", "subject": "Physics I", "teacher": "Prof. Brown", "room": "P-301" },
+        { "time": "11:00 - 12:00", "subject": "Linear Algebra", "teacher": "Dr. Wilson", "room": "M-202" }
       ]
     },
     "3": {
-      "A1": [
-        { "time": "09:00 - 10:00", "subject": "Advanced Algorithms", "teacher": "Dr. Turing", "room": "CS-101" },
-        { "time": "11:00 - 12:00", "subject": "Operating Systems", "teacher": "Dr. Tanenbaum", "room": "OS-202" },
-        { "time": "14:00 - 15:00", "subject": "Web Development", "teacher": "Dr. Berners-Lee", "room": "WD-101" }
-      ],
-      "A2": [
-        { "time": "10:00 - 11:00", "subject": "Database Systems", "teacher": "Dr. Codd", "room": "DB-201" },
-        { "time": "13:00 - 14:00", "subject": "Compiler Design", "teacher": "Dr. Hopper", "room": "CS-102" },
-        { "time": "15:00 - 16:00", "subject": "Mobile App Development", "teacher": "Mr. Fadell", "room": "MA-102" }
-      ],
-      "B1": [
-        { "time": "09:00 - 10:00", "subject": "Database Systems", "teacher": "Dr. Codd", "room": "DB-201" },
-        { "time": "11:00 - 12:00", "subject": "Compiler Design", "teacher": "Dr. Hopper", "room": "CS-102" },
-        { "time": "14:00 - 15:00", "subject": "Mobile App Development", "teacher": "Mr. Fadell", "room": "MA-102" }
-      ],
-      "B2": [
-        { "time": "10:00 - 11:00", "subject": "Advanced Algorithms", "teacher": "Dr. Turing", "room": "CS-101" },
-        { "time": "13:00 - 14:00", "subject": "Operating Systems", "teacher": "Dr. Tanenbaum", "room": "OS-202" },
-        { "time": "15:00 - 16:00", "subject": "Web Development", "teacher": "Dr. Berners-Lee", "room": "WD-101" }
-      ]
+        "A1": [
+            { "time": "09:00 - 10:00", "subject": "Computer Networks", "teacher": "Dr. Taylor", "room": "CS-202" },
+            { "time": "10:00 - 11:00", "subject": "Software Engineering", "teacher": "Prof. Moore", "room": "CS-203" }
+        ],
+        "A2": [
+            { "time": "11:00 - 12:00", "subject": "Discrete Mathematics", "teacher": "Dr. Martin", "room": "M-203" }
+        ],
+        "B1": [
+            { "time": "09:00 - 10:00", "subject": "Digital Logic Design", "teacher": "Prof. Harris", "room": "E-101" }
+        ],
+        "B2": [
+            { "time": "10:00 - 11:00", "subject": "Web Development", "teacher": "Dr. Clark", "room": "CS-204" },
+            { "time": "11:00 - 12:00", "subject": "Mobile App Development", "teacher": "Dr. Lewis", "room": "CS-205" }
+        ]
     },
     "4": {
-      "A1": [
-        { "time": "10:00 - 11:00", "subject": "Artificial Intelligence", "teacher": "Dr. McCarthy", "room": "AI-301" },
-        { "time": "13:00 - 14:00", "subject": "Discrete Mathematics", "teacher": "Dr. Euler", "room": "M-201" }
-      ],
-      "A2": [
-        { "time": "09:00 - 10:00", "subject": "Software Engineering", "teacher": "Dr. Brooks", "room": "SE-401" },
-        { "time": "11:00 - 12:00", "subject": "Linear Algebra", "teacher": "Dr. Gilbert", "room": "M-202" }
-      ],
-      "B1": [
-        { "time": "10:00 - 11:00", "subject": "Software Engineering", "teacher": "Dr. Brooks", "room": "SE-401" },
-        { "time": "13:00 - 14:00", "subject": "Linear Algebra", "teacher": "Dr. Gilbert", "room": "M-202" }
-      ],
-      "B2": [
-        { "time": "09:00 - 10:00", "subject": "Artificial Intelligence", "teacher": "Dr. McCarthy", "room": "AI-301" },
-        { "time": "11:00 - 12:00", "subject": "Discrete Mathematics", "teacher": "Dr. Euler", "room": "M-201" }
-      ]
+        "A1": [
+            { "time": "10:00 - 11:00", "subject": "Artificial Intelligence", "teacher": "Dr. Walker", "room": "CS-301" }
+        ],
+        "A2": [
+            { "time": "09:00 - 10:00", "subject": "Computer Graphics", "teacher": "Prof. Hall", "room": "CS-302" }
+        ],
+        "B1": [
+            { "time": "11:00 - 12:00", "subject": "Machine Learning", "teacher": "Dr. Allen", "room": "CS-303" }
+        ],
+        "B2": [
+            { "time": "09:00 - 10:00", "subject": "Cybersecurity", "teacher": "Prof. Young", "room": "CS-304" }
+        ]
     },
     "5": {
-      "A1": [
-        { "time": "09:00 - 10:00", "subject": "Computer Networks", "teacher": "Dr. Cerf", "room": "CN-302" },
-        { "time": "11:00 - 12:00", "subject": "Web Development", "teacher": "Dr. Berners-Lee", "room": "WD-101" }
-      ],
-      "A2": [
-        { "time": "10:00 - 11:00", "subject": "Cryptography", "teacher": "Dr. Rivest", "room": "CR-402" },
-        { "time": "13:00 - 14:00", "subject": "Mobile App Development", "teacher": "Mr. Fadell", "room": "MA-102" }
-      ],
-      "B1": [
-        { "time": "09:00 - 10:00", "subject": "Cryptography", "teacher": "Dr. Rivest", "room": "CR-402" },
-        { "time": "11:00 - 12:00", "subject": "Mobile App Development", "teacher": "Mr. Fadell", "room": "MA-102" }
-      ],
-      "B2": [
-        { "time": "10:00 - 11:00", "subject": "Computer Networks", "teacher": "Dr. Cerf", "room": "CN-302" },
-        { "time": "13:00 - 14:00", "subject": "Web Development", "teacher": "Dr. Berners-Lee", "room": "WD-101" }
-      ]
+        "A1": [
+          { "time": "09:00 - 10:00", "subject": "Compiler Design", "teacher": "Dr. King", "room": "CS-305" }
+        ],
+        "A2": [],
+        "B1": [
+          { "time": "10:00 - 11:00", "subject": "Cloud Computing", "teacher": "Dr. Wright", "room": "CS-306" }
+        ],
+        "B2": []
+    },
+    "6": {
+      "A1": [],
+      "A2": [],
+      "B1": [],
+      "B2": []
     }
   }
 }
