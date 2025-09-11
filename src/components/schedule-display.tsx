@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { getGroupFromPRN, formatDate } from "@/lib/utils";
 import type { ClassDetails, Timetable } from "@/types";
 import { ClassCard } from "@/components/class-card";
-import { BookMarked, Loader2, LogOut, UserCircle } from "lucide-react";
+import { BookMarked, CalendarIcon, Loader2, LogOut, UserCircle } from "lucide-react";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Button } from "@/components/ui/button";
 import {
@@ -16,6 +16,8 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Card, CardContent } from "@/components/ui/card";
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
+import { Calendar } from "@/components/ui/calendar";
 
 type ScheduleDisplayProps = {
   prn: string;
@@ -26,25 +28,23 @@ export function ScheduleDisplay({ prn, onChangePrn }: ScheduleDisplayProps) {
   const [todaySchedule, setTodaySchedule] = useState<ClassDetails[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [currentDate, setCurrentDate] = useState<Date | null>(null);
+  const [selectedDate, setSelectedDate] = useState<Date>(new Date());
   
   const group = getGroupFromPRN(prn);
 
   useEffect(() => {
-    // This runs only on the client
-    setCurrentDate(new Date());
-
     const fetchSchedule = async () => {
       setIsLoading(true);
+      setError(null);
       try {
         const response = await fetch("/timetable.json");
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
         const data: Timetable = await response.json();
-        const dayOfWeek = new Date().getDay().toString();
-        const scheduleForToday = data.schedule[dayOfWeek]?.[group] || [];
-        setTodaySchedule(scheduleForToday);
+        const dayOfWeek = selectedDate.getDay().toString();
+        const scheduleForDay = data.schedule[dayOfWeek]?.[group] || [];
+        setTodaySchedule(scheduleForDay);
       } catch (err) {
         setError("Could not fetch schedule. Please check your connection.");
         console.error(err);
@@ -54,7 +54,7 @@ export function ScheduleDisplay({ prn, onChangePrn }: ScheduleDisplayProps) {
     };
 
     fetchSchedule();
-  }, [group]);
+  }, [group, selectedDate]);
   
   return (
     <div className="space-y-6">
@@ -85,13 +85,34 @@ export function ScheduleDisplay({ prn, onChangePrn }: ScheduleDisplayProps) {
         </DropdownMenu>
       </header>
 
-      <div>
-        <h2 className="text-lg font-semibold text-foreground">
-          Today's Schedule
-        </h2>
-        <p className="text-muted-foreground">
-          {currentDate ? formatDate(currentDate) : <Skeleton className="h-4 w-48 mt-1" />}
-        </p>
+      <div className="flex items-center justify-between">
+        <div>
+            <h2 className="text-lg font-semibold text-foreground">
+              Today's Schedule
+            </h2>
+            <p className="text-muted-foreground">
+              {formatDate(selectedDate)}
+            </p>
+        </div>
+        <Popover>
+            <PopoverTrigger asChild>
+                <Button
+                variant={"outline"}
+                className="w-auto justify-start text-left font-normal"
+                >
+                <CalendarIcon className="mr-2 h-4 w-4" />
+                <span>{formatDate(selectedDate)}</span>
+                </Button>
+            </PopoverTrigger>
+            <PopoverContent className="w-auto p-0" align="end">
+                <Calendar
+                mode="single"
+                selected={selectedDate}
+                onSelect={(date) => date && setSelectedDate(date)}
+                initialFocus
+                />
+            </PopoverContent>
+        </Popover>
       </div>
 
       {isLoading ? (
