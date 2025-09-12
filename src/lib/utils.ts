@@ -1,4 +1,4 @@
-import { clsx, type ClassValue } from "clsx"
+import { type ClassValue, clsx } from "clsx"
 import { twMerge } from "tailwind-merge"
 import prnData from '../../public/prn-data.json';
 
@@ -24,19 +24,20 @@ export function getGroupFromPRN(prn: string): string {
   if (student) {
     // The key "Batch " has a trailing space in the provided JSON.
     const batch = student["Batch "];
-    if (batch) {
+    if (batch && batch.trim()) {
       return batch.trim();
     }
     // Fallback to DIV if Batch is not specified
-    if (student.DIV) {
-        // Simple logic to derive a default batch from DIV if not specified, e.g., DIV 'A' -> 'A1'
-        return `${student.DIV.trim()}1`;
+    if (student.DIV && student.DIV.trim()) {
+        const division = student.DIV.trim();
+        // Default to batch 1 if no specific batch is assigned
+        return `${division}1`;
     }
   }
 
-  // Fallback for PRNs not in the JSON data, you might want to refine this
+  // Fallback for PRNs not in the JSON data, though this should be rare.
   const lastDigit = parseInt(prn.slice(-1), 10);
-  if (lastDigit <= 3) return `A${lastDigit || 1}`;
+  if (lastDigit >= 1 && lastDigit <= 3) return `A${lastDigit}`;
   
   return "A1"; 
 }
@@ -49,7 +50,12 @@ export const formatDate = (date: Date): string => {
     day: 'numeric',
   };
   
-  if (new Date().toDateString() === date.toDateString()) {
+  const today = new Date();
+  const isToday = today.getDate() === date.getDate() &&
+                  today.getMonth() === date.getMonth() &&
+                  today.getFullYear() === date.getFullYear();
+
+  if (isToday) {
     return `Today, ${new Intl.DateTimeFormat('en-US', options).format(date)}`;
   }
   
