@@ -36,9 +36,6 @@ export function getGroupFromPRN(prn: string): string {
   }
 
   // Fallback for PRNs not in the JSON data, though this should be rare.
-  const lastDigit = parseInt(prn.slice(-1), 10);
-  if (lastDigit >= 1 && lastDigit <= 3) return `A${lastDigit}`;
-  
   return "A1"; 
 }
 
