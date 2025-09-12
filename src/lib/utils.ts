@@ -16,26 +16,30 @@ export function getGroupFromPRN(prn: string): string {
   const prnNumber = parseInt(prn, 10);
 
   if (isNaN(prnNumber)) {
-    return "A1"; // Default or error case
+    return "A1"; 
   }
 
   const student = (prnData as StudentData[]).find(item => item["PRN NO"] === prnNumber);
 
   if (student) {
-    // The key "Batch " has a trailing space in the provided JSON.
     const batch = student["Batch "];
     if (batch && batch.trim()) {
       return batch.trim();
     }
-    // Fallback to DIV if Batch is not specified
     if (student.DIV && student.DIV.trim()) {
         const division = student.DIV.trim();
-        // Default to batch 1 if no specific batch is assigned
-        return `${division}1`;
+        
+        const divisionPrns = prnData.filter(s => s.DIV === division);
+        const studentIndexInDiv = divisionPrns.findIndex(s => s["PRN NO"] === prnNumber);
+
+        if (studentIndexInDiv !== -1) {
+            const batchSize = 20; 
+            const batchNumber = Math.floor(studentIndexInDiv / batchSize) + 1;
+            return `${division}${batchNumber}`;
+        }
     }
   }
 
-  // Fallback for PRNs not in the JSON data, though this should be rare.
   return "A1"; 
 }
 
@@ -48,12 +52,12 @@ export const formatDate = (date: Date): string => {
   };
   
   const today = new Date();
-  const isToday = today.getDate() === date.getDate() &&
-                  today.getMonth() === date.getMonth() &&
-                  today.getFullYear() === date.getFullYear();
+  today.setHours(0, 0, 0, 0);
+  const compareDate = new Date(date);
+  compareDate.setHours(0, 0, 0, 0);
 
-  if (isToday) {
-    return `Today, ${new Intl.DateTimeFormat('en-US', options).format(date)}`;
+  if (today.getTime() === compareDate.getTime()) {
+    return `Today, ${new Intl.DateTimeFormat('en-US', { month: 'long', day: 'numeric' }).format(date)}`;
   }
   
   return new Intl.DateTimeFormat('en-US', options).format(date);

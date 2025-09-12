@@ -29,6 +29,16 @@ type ScheduleDisplayProps = {
   onChangePrn: () => void;
 };
 
+const dayMapping: { [key: string]: number } = {
+  Sunday: 0,
+  Monday: 1,
+  Tuesday: 2,
+  Wednesday: 3,
+  Thursday: 4,
+  Friday: 5,
+  Saturday: 6,
+};
+
 export function ScheduleDisplay({ prn, onChangePrn }: ScheduleDisplayProps) {
   const [todaySchedule, setTodaySchedule] = useState<ClassDetails[]>([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -48,7 +58,7 @@ export function ScheduleDisplay({ prn, onChangePrn }: ScheduleDisplayProps) {
           throw new Error("Network response was not ok");
         }
         const data: Timetable = await response.json();
-        const dayOfWeek = selectedDate.getDay().toString();
+        const dayOfWeek = selectedDate.getDay();
         const scheduleForDay = data.schedule[dayOfWeek]?.[group] || [];
         setTodaySchedule(scheduleForDay);
       } catch (err) {
