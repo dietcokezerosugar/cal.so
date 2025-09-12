@@ -1,5 +1,11 @@
 import { clsx, type ClassValue } from "clsx"
 import { twMerge } from "tailwind-merge"
+import prnData from '../../public/prn-data.json';
+
+type StudentData = {
+  "PRN NO": number;
+  "Batch": string;
+}
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
@@ -12,47 +18,51 @@ export function getGroupFromPRN(prn: string): string {
     return "A1"; // Default or error case
   }
 
-  // PRN ranges are inclusive
-  const ranges: { [group: string]: { start: number; end: number } } = {
-    A1: { start: 20250802001, end: 20250802053 },
-    A2: { start: 20250802054, end: 20250802104 },
-    A3: { start: 20250802105, end: 20250802154 },
-    B1: { start: 20250802155, end: 20250802203 },
-    B2: { start: 20250802204, end: 20250802257 },
-    B3: { start: 20250802258, end: 20250802304 },
-    C1: { start: 20250802305, end: 20250802352 },
-    C2: { start: 20250802353, end: 20250802402 },
-    C3: { start: 20250802404, end: 20250802451 },
-    D1: { start: 20250802452, end: 20250802496 },
-    D2: { start: 20250802497, end: 20250802544 },
-    D3: { start: 20250802545, end: 20250802591 },
-    E1: { start: 20250802592, end: 20250802637 },
-    E2: { start: 20250802638, end: 20250802684 },
-    E3: { start: 20250802685, end: 20250802733 },
-    F1: { start: 20250802734, end: 20250802780 },
-    F2: { start: 20250802781, end: 20250802829 },
-    F3: { start: 20250802830, end: 20250802877 },
-    G1: { start: 20250802878, end: 20250802923 },
-    G2: { start: 20250802924, end: 20250802972 },
-    G3: { start: 20250802973, end: 20250803018 },
-    H1: { start: 20250803019, end: 20250803063 },
-    H2: { start: 20250803064, end: 20250803109 },
-    H3: { start: 20250803111, end: 20250803158 },
-    I1: { start: 20250803159, end: 20250803203 },
-    I2: { start: 20250803204, end: 20250803248 },
-    I3: { start: 20250803249, end: 20250803293 },
-    J1: { start: 20250803294, end: 20250803338 },
-    J2: { start: 20250803339, end: 20250803383 },
-    J3: { start: 20250803384, end: 20250803425 },
-  };
+  const student = (prnData as StudentData[]).find(item => item["PRN NO"] === prnNumber);
 
-  for (const group in ranges) {
-    if (prnNumber >= ranges[group].start && prnNumber <= ranges[group].end) {
-      return group;
-    }
+  if (student && student.Batch) {
+    return student.Batch;
+  }
+  
+  // Fallback logic for PRNs not in the provided list
+  if (prn.length === 11) {
+    if (prnNumber >= 20250802001 && prnNumber <= 20250802053) return "A1";
+    if (prnNumber >= 20250802054 && prnNumber <= 20250802104) return "A2";
+    if (prnNumber >= 20250802105 && prnNumber <= 20250802154) return "A3";
+    if (prnNumber >= 20250802155 && prnNumber <= 20250802203) return "B1";
+    if (prnNumber >= 20250802204 && prnNumber <= 20250802257) return "B2";
+    if (prnNumber >= 20250802258 && prnNumber <= 20250802304) return "B3";
+    if (prnNumber >= 20250802305 && prnNumber <= 20250802352) return "C1";
+    if (prnNumber >= 20250802353 && prnNumber <= 20250802402) return "C2";
+    if (prnNumber >= 20250802404 && prnNumber <= 20250802451) return "C3";
+    if (prnNumber >= 20250802452 && prnNumber <= 20250802496) return "D1";
+    if (prnNumber >= 20250802497 && prnNumber <= 20250802544) return "D2";
+    if (prnNumber >= 20250802545 && prnNumber <= 20250802591) return "D3";
+    if (prnNumber >= 20250802592 && prnNumber <= 20250802637) return "E1";
+    if (prnNumber >= 20250802638 && prnNumber <= 20250802684) return "E2";
+    if (prnNumber >= 20250802685 && prnNumber <= 20250802733) return "E3";
+    if (prnNumber >= 20250802734 && prnNumber <= 20250802780) return "F1";
+    if (prnNumber >= 20250802781 && prnNumber <= 20250802829) return "F2";
+    if (prnNumber >= 20250802830 && prnNumber <= 20250802877) return "F3";
+    if (prnNumber >= 20250802878 && prnNumber <= 20250802923) return "G1";
+    if (prnNumber >= 20250802924 && prnNumber <= 20250802972) return "G2";
+    if (prnNumber >= 20250802973 && prnNumber <= 20250803018) return "G3";
+    if (prnNumber >= 202508021019 && prnNumber <= 202508021063) return "H1";
+    if (prnNumber >= 202508021064 && prnNumber <= 202508021109) return "H2";
+    if (prnNumber >= 202508021111 && prnNumber <= 202508021158) return "H3";
+    if (prnNumber >= 202508021159 && prnNumber <= 202508021203) return "I1";
+    if (prnNumber >= 202508021204 && prnNumber <= 202508021248) return "I2";
+    if (prnNumber >= 202508021249 && prnNumber <= 202508021293) return "I3";
+    if (prnNumber >= 202508021294 && prnNumber <= 202508021338) return "J1";
+    if (prnNumber >= 202508021339 && prnNumber <= 202508021383) return "J2";
+    if (prnNumber >= 202508021384 && prnNumber <= 202508021425) return "J3";
   }
 
-  return "A1"; // Default if not in any range
+  // A simple fallback for other cases, you might want to refine this
+  const lastDigit = parseInt(prn.slice(-1), 10);
+  if (lastDigit <= 3) return `A${lastDigit || 1}`;
+  
+  return "A1"; 
 }
 
 

@@ -19,7 +19,7 @@ import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const formSchema = z.object({
-  prn_suffix: z.string().length(4, "Please enter the last 4 digits of your PRN."),
+  prn_suffix: z.string().min(4, "Please enter the last 4 or 5 digits of your PRN.").max(5, "Please enter only the last 4 or 5 digits of your PRN."),
 });
 
 type PrnInputProps = {
@@ -59,15 +59,15 @@ export function PrnInput({ onPrnSubmit }: PrnInputProps) {
                 name="prn_suffix"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>Last 4 Digits of your PRN</FormLabel>
+                    <FormLabel>Last 4 or 5 Digits of your PRN</FormLabel>
                     <FormControl>
                       <div className="flex items-center space-x-2">
                         <span className="rounded-md border border-input bg-background px-3 py-2 text-muted-foreground">{PRN_PREFIX}</span>
-                        <Input placeholder="1234" {...field} maxLength={4} className="text-center" />
+                        <Input placeholder="2001" {...field} maxLength={5} className="text-center" />
                       </div>
                     </FormControl>
                     <FormDescription>
-                      Enter the last 4 digits of your Personal Registration Number.
+                      Enter the last 4 or 5 digits of your Personal Registration Number.
                     </FormDescription>
                     <FormMessage />
                   </FormItem>
