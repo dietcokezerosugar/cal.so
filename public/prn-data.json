@@ -1,317 +1,62 @@
 [
- {
-  "SR.NO": 1,
-  "PRN NO": 20250802001,
-  "NAME": "Aarushi Deokate",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 2,
-  "PRN NO": 20250802002,
-  "NAME": "AARYA KULMITRA",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 3,
-  "PRN NO": 20250802003,
-  "NAME": "AARYA SADASHIV SAMPGAONKAR",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 4,
-  "PRN NO": 20250802004,
-  "NAME": "AAYUSHI GUNDGE",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 5,
-  "PRN NO": 20250802005,
-  "NAME": "ABHINANTH NAIR",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 6,
-  "PRN NO": 20250802006,
-  "NAME": "ABHINAV SINGH",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 7,
-  "PRN NO": 20250802007,
-  "NAME": "ABHINAV SRIVASTAVA",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 8,
-  "PRN NO": 20250802009,
-  "NAME": "ABHISHEK AMBADAS SANGLE",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 9,
-  "PRN NO": 20250802010,
-  "NAME": "ABHISHEK KATARIYA",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 10,
-  "PRN NO": 20250802011,
-  "NAME": "ABRAN PAUL SANOJ",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 11,
-  "PRN NO": 20250802012,
-  "NAME": "ADARSH RAVINDRA AGRE",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 12,
-  "PRN NO": 20250802013,
-  "NAME": "ADITYA PANKAJ NEVE",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 13,
-  "PRN NO": 20250802014,
-  "NAME": "Aditya Raj Tiwari",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 14,
-  "PRN NO": 20250802015,
-  "NAME": "ADITYA RAVI KAYARWAR",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 15,
-  "PRN NO": 20250802017,
-  "NAME": "ADYA JOSHI",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 16,
-  "PRN NO": 20250802019,
-  "NAME": "Akshdeep sinha",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 17,
-  "PRN NO": 20250802020,
-  "NAME": "ALOK DAS",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 18,
-  "PRN NO": 20250802021,
-  "NAME": "AMRITESH SINGH",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 19,
-  "PRN NO": 20250802022,
-  "NAME": "ANAND ASHOK BARURE",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 20,
-  "PRN NO": 20250802023,
-  "NAME": "ANEESH AJAY SHEJUL",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 21,
-  "PRN NO": 20250802026,
-  "NAME": "ANIRUDH JAISWAL",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 22,
-  "PRN NO": 20250802027,
-  "NAME": "ANSHIKA JAYESH JUGDAR",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 23,
-  "PRN NO": 20250802028,
-  "NAME": "ANURAAG AWADHUT IGAVE",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 24,
-  "PRN NO": 20250802029,
-  "NAME": "ANUSHA SATISH KULKARNI",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 25,
-  "PRN NO": 20250802030,
-  "NAME": "ANUSHREE WAGHCHAURE",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 26,
-  "PRN NO": 20250802031,
-  "NAME": "APOORVA NANA GHARBUDE",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 27,
-  "PRN NO": 20250802032,
-  "NAME": "APURVA PRAMOD KUMAR",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 28,
-  "PRN NO": 20250802033,
-  "NAME": "ARCHI SHANKAR",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 29,
-  "PRN NO": 20250802034,
-  "NAME": "Arjun Arora",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 30,
-  "PRN NO": 20250802035,
-  "NAME": "ARNAV PRAVIN JUNGHARE",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 31,
-  "PRN NO": 20250802036,
-  "NAME": "AROHI CHANDRAKANT JADHAV",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 32,
-  "PRN NO": 20250802037,
-  "NAME": "ARPITA VERMA",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 33,
-  "PRN NO": 20250802038,
-  "NAME": "Arushi Shivhare",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 34,
-  "PRN NO": 20250802039,
-  "NAME": "ARYAN MAHARANA",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 35,
-  "PRN NO": 20250802040,
-  "NAME": "ARYAN SHYAM GUPTA",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 36,
-  "PRN NO": 20250802041,
-  "NAME": "ASTHA GUPTA",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 37,
-  "PRN NO": 20250802042,
-  "NAME": "ATHARV RAHUL JANGALE",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 38,
-  "PRN NO": 20250802043,
-  "NAME": "ATHARV RAJ SAHU",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 39,
-  "PRN NO": 20250802044,
-  "NAME": "ATHARV VISHAL BAVISKAR",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 40,
-  "PRN NO": 20250802047,
-  "NAME": "AYUSH JAISWAL",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 41,
-  "PRN NO": 20250802048,
-  "NAME": "Ayush Pathare",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 42,
-  "PRN NO": 20250802050,
-  "NAME": "BHOGE PURVA RAJIV",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 43,
-  "PRN NO": 20250802051,
-  "NAME": "Bhoomi Rastogi",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 44,
-  "PRN NO": 20250802052,
-  "NAME": "BHUMIKA PRASHANT MAHAJAN",
-  "DIV": "A",
-  "Batch": "A1"
- },
- {
-  "SR.NO": 45,
-  "PRN NO": 20250802053,
-  "NAME": "BHUMIKA SUNIL THAKRE",
-  "DIV": "A",
-  "Batch": "A1"
- }
+  {
+    "PRN NO": 20250802001,
+    "DIV": "A",
+    "Batch ": "A1"
+  },
+  {
+    "PRN NO": 20250802002,
+    "DIV": "A",
+    "Batch ": "A1"
+  },
+  {
+    "PRN NO": 20250802021,
+    "DIV": "A",
+    "Batch ": "A2"
+  },
+  {
+    "PRN NO": 20250802022,
+    "DIV": "A",
+    "Batch ": "A2"
+  },
+  {
+    "PRN NO": 20250802041,
+    "DIV": "A",
+    "Batch ": "A3"
+  },
+  {
+    "PRN NO": 20250802042,
+    "DIV": "A",
+    "Batch ": "A3"
+  },
+  {
+    "PRN NO": 20250802061,
+    "DIV": "B",
+    "Batch ": "B1"
+  },
+  {
+    "PRN NO": 20250802062,
+    "DIV": "B",
+    "Batch ": "B1"
+  },
+  {
+    "PRN NO": 20250802081,
+    "DIV": "B",
+    "Batch ": "B2"
+  },
+  {
+    "PRN NO": 20250802082,
+    "DIV": "B",
+    "Batch ": "B2"
+  },
+  {
+    "PRN NO": 20250802101,
+    "DIV": "B",
+    "Batch ": "B3"
+  },
+  {
+    "PRN NO": 20250802102,
+    "DIV": "B",
+    "Batch ": "B3"
+  }
 ]
