@@ -1,7 +1,7 @@
 "use client";
 
 import type { ClassDetails } from "@/types";
-import { Book, Clock, FlaskConical, MapPin, User, Utensils } from "lucide-react";
+import { Book, Clock, FlaskConical, MapPin, User, Utensils, Library, Briefcase, Dumbbell } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -11,9 +11,13 @@ type ClassCardProps = {
 };
 
 export function ClassCard({ classInfo }: ClassCardProps) {
-  const isLab = classInfo.subject.toLowerCase().includes("lab") || classInfo.subject.toLowerCase().includes("practice");
-  const isBreak = classInfo.subject.toLowerCase().includes("break");
-  
+  const subjectLower = classInfo.subject.toLowerCase();
+  const isLab = subjectLower.includes("lab") || subjectLower.includes("practice");
+  const isBreak = subjectLower.includes("break") || subjectLower.includes("lunch");
+  const isLibrary = subjectLower.includes("library");
+  const isOffice = subjectLower.includes("office");
+  const isSports = subjectLower.includes("sports");
+
   let Icon = Book;
   let cardStyle = "bg-card";
   let iconStyle = "bg-primary/10 text-primary";
@@ -26,8 +30,21 @@ export function ClassCard({ classInfo }: ClassCardProps) {
     Icon = Utensils;
     iconStyle = "bg-green-500/10 text-green-500";
     cardStyle = "border-green-500/20 bg-green-500/5";
+  } else if (isLibrary) {
+    Icon = Library;
+    iconStyle = "bg-blue-500/10 text-blue-500";
+    cardStyle = "border-blue-500/20 bg-blue-500/5";
+  } else if (isOffice) {
+    Icon = Briefcase;
+    iconStyle = "bg-purple-500/10 text-purple-500";
+    cardStyle = "border-purple-500/20 bg-purple-500/5";
+  } else if (isSports) {
+    Icon = Dumbbell;
+    iconStyle = "bg-red-500/10 text-red-500";
+    cardStyle = "border-red-500/20 bg-red-500/5";
   }
 
+  const isActivity = isBreak || isLibrary || isOffice || isSports;
 
   return (
     <Card className={`overflow-hidden shadow-sm transition-shadow hover:shadow-md ${cardStyle}`}>
@@ -49,7 +66,7 @@ export function ClassCard({ classInfo }: ClassCardProps) {
           <Clock className="h-4 w-4" />
           <span>{classInfo.time}</span>
         </div>
-        {!isBreak && (
+        {!isActivity && (
           <>
             <div className="flex items-center gap-2 text-muted-foreground">
               <User className="h-4 w-4" />
