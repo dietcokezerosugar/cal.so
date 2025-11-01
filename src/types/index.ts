@@ -6,13 +6,9 @@ export interface ClassDetails {
 }
 
 export interface DailySchedule {
-  [group: string]: ClassDetails[];
-}
-
-export interface WeeklySchedule {
-  [dayOfWeek: string]: DailySchedule;
+  [dayOfWeek: string]: ClassDetails[];
 }
 
 export interface Timetable {
-  schedule: WeeklySchedule;
+  [group: string]: DailySchedule;
 }

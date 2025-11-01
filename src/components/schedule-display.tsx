@@ -29,14 +29,14 @@ type ScheduleDisplayProps = {
   onChangePrn: () => void;
 };
 
-const dayMapping: { [key: string]: number } = {
-  Sunday: 0,
-  Monday: 1,
-  Tuesday: 2,
-  Wednesday: 3,
-  Thursday: 4,
-  Friday: 5,
-  Saturday: 6,
+const dayMapping: { [key: number]: string } = {
+  0: 'Sunday',
+  1: 'Monday',
+  2: 'Tuesday',
+  3: 'Wednesday',
+  4: 'Thursday',
+  5: 'Friday',
+  6: 'Saturday',
 };
 
 export function ScheduleDisplay({ prn, onChangePrn }: ScheduleDisplayProps) {
@@ -58,8 +58,8 @@ export function ScheduleDisplay({ prn, onChangePrn }: ScheduleDisplayProps) {
           throw new Error("Network response was not ok");
         }
         const data: Timetable = await response.json();
-        const dayOfWeek = selectedDate.getDay();
-        const scheduleForDay = data.schedule[dayOfWeek]?.[group] || [];
+        const dayOfWeek = dayMapping[selectedDate.getDay() as keyof typeof dayMapping];
+        const scheduleForDay = data[group]?.[dayOfWeek] || [];
         setTodaySchedule(scheduleForDay);
       } catch (err) {
         setError("Could not fetch schedule. Please check your connection.");
