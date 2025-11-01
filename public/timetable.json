@@ -1,6 +1,51 @@
+
 {
   "A1": {
     "Monday": [
+      {
+        "time": "8:30-9:30",
+        "subject": "Data Structures using C",
+        "teacher": "Dr. Amol D",
+        "room": "566"
+      },
+      {
+        "time": "9:30-10:30",
+        "subject": "Applied Computational Mathematics",
+        "teacher": "Dr. RishiKant R",
+        "room": "566"
+      },
+      {
+        "time": "10:30-11:30",
+        "subject": "Office Hour",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "11:30-12:30",
+        "subject": "Basic Electrical and Electronics Engineering-TUT",
+        "teacher": "Dr. Gaurav S",
+        "room": "566"
+      },
+      {
+        "time": "12:30-1:30",
+        "subject": "Lunch",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "1:30-2:30",
+        "subject": "Fundamentals Web Technologies",
+        "teacher": "Ms. Shraddha Ghatol",
+        "room": "566"
+      },
+      {
+        "time": "2:30-3:30",
+        "subject": "Office Hour",
+        "teacher": "",
+        "room": ""
+      }
+    ],
+    "Tuesday": [
       {
         "time": "8:30-10:30",
         "subject": "Basic Electrical and Electronics Engineering Lab",
@@ -21,8 +66,8 @@
       },
       {
         "time": "12:30-1:30",
-        "subject": "Data Structures using C",
-        "teacher": "Dr. Amol D",
+        "subject": "Applied Computational Mathematics-TUT",
+        "teacher": "Dr. RishiKant R",
         "room": "566"
       },
       {
@@ -44,7 +89,7 @@
         "room": ""
       }
     ],
-    "Tuesday": [
+    "Wednesday": [
       {
         "time": "8:30-9:30",
         "subject": "Applied Computational Mathematics",
@@ -53,13 +98,13 @@
       },
       {
         "time": "9:30-10:30",
-        "subject": "Basic Electrical and Electronics Engineering",
-        "teacher": "Dr. Gaurav S",
+        "subject": "Data Structures using C",
+        "teacher": "Dr. Amol D",
         "room": "566"
       },
       {
         "time": "10:30-11:30",
-        "subject": "Library Hour",
+        "subject": "Office Hour",
         "teacher": "",
         "room": ""
       },
@@ -77,8 +122,8 @@
       },
       {
         "time": "1:30-2:30",
-        "subject": "Data Structures using C",
-        "teacher": "Dr. Amol D",
+        "subject": "Modern Computer Hardware",
+        "teacher": "Sahil Jadhav",
         "room": "566"
       },
       {
@@ -88,7 +133,7 @@
         "room": ""
       }
     ],
-    "Wednesday": [
+    "Thursday": [
       {
         "time": "8:30-10:30",
         "subject": "Fundamentals Web Technologies Lab",
@@ -97,8 +142,8 @@
       },
       {
         "time": "10:30-11:30",
-        "subject": "Applied Computational Mathematics",
-        "teacher": "Dr. RishiKant R",
+        "subject": "Data Structures using C",
+        "teacher": "Dr. Amol D",
         "room": "566"
       },
       {
@@ -109,8 +154,8 @@
       },
       {
         "time": "12:30-1:30",
-        "subject": "Basic Electrical and Electronics Engineering",
-        "teacher": "Dr. Gaurav S",
+        "subject": "Fundamentals Web Technologies",
+        "teacher": "Ms. Shraddha Ghatol",
         "room": "566"
       },
       {
@@ -121,8 +166,8 @@
       },
       {
         "time": "2:30-3:30",
-        "subject": "Fundamentals Web Technologies",
-        "teacher": "Ms. Shraddha Ghatol",
+        "subject": "Basic Electrical and Electronics Engineering",
+        "teacher": "Dr. Gaurav S",
         "room": "566"
       },
       {
@@ -132,7 +177,7 @@
         "room": ""
       }
     ],
-    "Thursday": [
+    "Friday": [
       {
         "time": "8:30-9:30",
         "subject": "Applied Computational Mathematics",
@@ -141,8 +186,8 @@
       },
       {
         "time": "9:30-10:30",
-        "subject": "Data Structures using C",
-        "teacher": "Dr. Amol D",
+        "subject": "Basic Electrical and Electronics Engineering",
+        "teacher": "Dr. Gaurav S",
         "room": "566"
       },
       {
@@ -153,8 +198,8 @@
       },
       {
         "time": "11:30-12:30",
-        "subject": "Basic Electrical and Electronics Engineering",
-        "teacher": "Dr. Gaurav S",
+        "subject": "Modern Computer Hardware",
+        "teacher": "Sahil Jadhav",
         "room": "566"
       },
       {
@@ -165,8 +210,8 @@
       },
       {
         "time": "1:30-2:30",
-        "subject": "Modern Computer Hardware",
-        "teacher": "Sahil Jadhav",
+        "subject": "Data Structures using C-TUT",
+        "teacher": "Dr. Amol D",
         "room": "566"
       },
       {
@@ -176,7 +221,7 @@
         "room": ""
       }
     ],
-    "Friday": [
+    "Saturday": [
       {
         "time": "8:30-10:30",
         "subject": "Data Structures using C Lab",
@@ -185,50 +230,6 @@
       },
       {
         "time": "10:30-11:30",
-        "subject": "Data Structures using C",
-        "teacher": "Dr. Amol D",
-        "room": "566"
-      },
-      {
-        "time": "11:30-12:30",
-        "subject": "Library Hour",
-        "teacher": "",
-        "room": ""
-      },
-      {
-        "time": "12:30-1:30",
-        "subject": "Fundamentals Web Technologies",
-        "teacher": "Ms. Shraddha Ghatol",
-        "room": "566"
-      },
-      {
-        "time": "1:30-2:30",
-        "subject": "Lunch",
-        "teacher": "",
-        "room": ""
-      },
-      {
-        "time": "2:30-3:30",
-        "subject": "Modern Computer Hardware",
-        "teacher": "Sahil Jadhav",
-        "room": "566"
-      },
-      {
-        "time": "3:30-4:30",
-        "subject": "Sports Hour",
-        "teacher": "",
-        "room": ""
-      }
-    ],
-    "Saturday": [
-      {
-        "time": "8:30-9:30",
-        "subject": "Applied Computational Mathematics",
-        "teacher": "Dr. RishiKant R",
-        "room": "566"
-      },
-      {
-        "time": "9:30-10:30",
         "subject": "IKS- Indian Science, Engineering & Technology",
         "teacher": "Mr. Maan Bardhan Kanth",
         "room": "566"
@@ -239,6 +240,50 @@
   "A2": {
     "Monday": [
       {
+        "time": "8:30-9:30",
+        "subject": "Data Structures using C",
+        "teacher": "Dr. Amol D",
+        "room": "566"
+      },
+      {
+        "time": "9:30-10:30",
+        "subject": "Applied Computational Mathematics",
+        "teacher": "Dr. RishiKant R",
+        "room": "566"
+      },
+      {
+        "time": "10:30-11:30",
+        "subject": "Office Hour",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "11:30-12:30",
+        "subject": "Basic Electrical and Electronics Engineering-TUT",
+        "teacher": "Dr. Gaurav S",
+        "room": "566"
+      },
+      {
+        "time": "12:30-1:30",
+        "subject": "Lunch",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "1:30-2:30",
+        "subject": "Fundamentals Web Technologies",
+        "teacher": "Ms. Shraddha Ghatol",
+        "room": "566"
+      },
+      {
+        "time": "2:30-3:30",
+        "subject": "Office Hour",
+        "teacher": "",
+        "room": ""
+      }
+    ],
+    "Tuesday": [
+      {
         "time": "8:30-10:30",
         "subject": "Data Structures using C Lab",
         "teacher": "Dr. Amol D",
@@ -258,8 +303,8 @@
       },
       {
         "time": "12:30-1:30",
-        "subject": "Data Structures using C",
-        "teacher": "Dr. Amol D",
+        "subject": "Applied Computational Mathematics-TUT",
+        "teacher": "Dr. RishiKant R",
         "room": "566"
       },
       {
@@ -281,7 +326,7 @@
         "room": ""
       }
     ],
-    "Tuesday": [
+    "Wednesday": [
       {
         "time": "8:30-9:30",
         "subject": "Applied Computational Mathematics",
@@ -290,13 +335,13 @@
       },
       {
         "time": "9:30-10:30",
-        "subject": "Basic Electrical and Electronics Engineering",
-        "teacher": "Dr. Gaurav S",
+        "subject": "Data Structures using C",
+        "teacher": "Dr. Amol D",
         "room": "566"
       },
       {
         "time": "10:30-11:30",
-        "subject": "Library Hour",
+        "subject": "Office Hour",
         "teacher": "",
         "room": ""
       },
@@ -314,8 +359,8 @@
       },
       {
         "time": "1:30-2:30",
-        "subject": "Data Structures using C",
-        "teacher": "Dr. Amol D",
+        "subject": "Modern Computer Hardware",
+        "teacher": "Sahil Jadhav",
         "room": "566"
       },
       {
@@ -325,7 +370,7 @@
         "room": ""
       }
     ],
-    "Wednesday": [
+    "Thursday": [
       {
         "time": "8:30-10:30",
         "subject": "Basic Electrical and Electronics Engineering Lab",
@@ -334,8 +379,8 @@
       },
       {
         "time": "10:30-11:30",
-        "subject": "Applied Computational Mathematics",
-        "teacher": "Dr. RishiKant R",
+        "subject": "Data Structures using C",
+        "teacher": "Dr. Amol D",
         "room": "566"
       },
       {
@@ -346,8 +391,8 @@
       },
       {
         "time": "12:30-1:30",
-        "subject": "Basic Electrical and Electronics Engineering",
-        "teacher": "Dr. Gaurav S",
+        "subject": "Fundamentals Web Technologies",
+        "teacher": "Ms. Shraddha Ghatol",
         "room": "566"
       },
       {
@@ -358,8 +403,8 @@
       },
       {
         "time": "2:30-3:30",
-        "subject": "Fundamentals Web Technologies",
-        "teacher": "Ms. Shraddha Ghatol",
+        "subject": "Basic Electrical and Electronics Engineering",
+        "teacher": "Dr. Gaurav S",
         "room": "566"
       },
       {
@@ -369,7 +414,7 @@
         "room": ""
       }
     ],
-    "Thursday": [
+    "Friday": [
       {
         "time": "8:30-9:30",
         "subject": "Applied Computational Mathematics",
@@ -378,8 +423,8 @@
       },
       {
         "time": "9:30-10:30",
-        "subject": "Data Structures using C",
-        "teacher": "Dr. Amol D",
+        "subject": "Basic Electrical and Electronics Engineering",
+        "teacher": "Dr. Gaurav S",
         "room": "566"
       },
       {
@@ -390,8 +435,8 @@
       },
       {
         "time": "11:30-12:30",
-        "subject": "Basic Electrical and Electronics Engineering",
-        "teacher": "Dr. Gaurav S",
+        "subject": "Modern Computer Hardware",
+        "teacher": "Sahil Jadhav",
         "room": "566"
       },
       {
@@ -402,8 +447,8 @@
       },
       {
         "time": "1:30-2:30",
-        "subject": "Modern Computer Hardware",
-        "teacher": "Sahil Jadhav",
+        "subject": "Data Structures using C-TUT",
+        "teacher": "Dr. Amol D",
         "room": "566"
       },
       {
@@ -413,7 +458,7 @@
         "room": ""
       }
     ],
-    "Friday": [
+    "Saturday": [
       {
         "time": "8:30-10:30",
         "subject": "Fundamentals Web Technologies Lab",
@@ -422,50 +467,6 @@
       },
       {
         "time": "10:30-11:30",
-        "subject": "Data Structures using C",
-        "teacher": "Dr. Amol D",
-        "room": "566"
-      },
-      {
-        "time": "11:30-12:30",
-        "subject": "Library Hour",
-        "teacher": "",
-        "room": ""
-      },
-      {
-        "time": "12:30-1:30",
-        "subject": "Fundamentals Web Technologies",
-        "teacher": "Ms. Shraddha Ghatol",
-        "room": "566"
-      },
-      {
-        "time": "1:30-2:30",
-        "subject": "Lunch",
-        "teacher": "",
-        "room": ""
-      },
-      {
-        "time": "2:30-3:30",
-        "subject": "Modern Computer Hardware",
-        "teacher": "Sahil Jadhav",
-        "room": "566"
-      },
-      {
-        "time": "3:30-4:30",
-        "subject": "Sports Hour",
-        "teacher": "",
-        "room": ""
-      }
-    ],
-    "Saturday": [
-      {
-        "time": "8:30-9:30",
-        "subject": "Applied Computational Mathematics",
-        "teacher": "Dr. RishiKant R",
-        "room": "566"
-      },
-      {
-        "time": "9:30-10:30",
         "subject": "IKS- Indian Science, Engineering & Technology",
         "teacher": "Mr. Maan Bardhan Kanth",
         "room": "566"
@@ -476,6 +477,50 @@
   "A3": {
     "Monday": [
       {
+        "time": "8:30-9:30",
+        "subject": "Data Structures using C",
+        "teacher": "Dr. Amol D",
+        "room": "566"
+      },
+      {
+        "time": "9:30-10:30",
+        "subject": "Applied Computational Mathematics",
+        "teacher": "Dr. RishiKant R",
+        "room": "566"
+      },
+      {
+        "time": "10:30-11:30",
+        "subject": "Office Hour",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "11:30-12:30",
+        "subject": "Basic Electrical and Electronics Engineering-TUT",
+        "teacher": "Dr. Gaurav S",
+        "room": "566"
+      },
+      {
+        "time": "12:30-1:30",
+        "subject": "Lunch",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "1:30-2:30",
+        "subject": "Fundamentals Web Technologies",
+        "teacher": "Ms. Shraddha Ghatol",
+        "room": "566"
+      },
+      {
+        "time": "2:30-3:30",
+        "subject": "Office Hour",
+        "teacher": "",
+        "room": ""
+      }
+    ],
+    "Tuesday": [
+      {
         "time": "8:30-10:30",
         "subject": "Fundamentals Web Technologies Lab",
         "teacher": "Ms. Shraddha Ghatol",
@@ -495,8 +540,8 @@
       },
       {
         "time": "12:30-1:30",
-        "subject": "Data Structures using C",
-        "teacher": "Dr. Amol D",
+        "subject": "Applied Computational Mathematics-TUT",
+        "teacher": "Dr. RishiKant R",
         "room": "566"
       },
       {
@@ -518,7 +563,7 @@
         "room": ""
       }
     ],
-    "Tuesday": [
+    "Wednesday": [
       {
         "time": "8:30-9:30",
         "subject": "Applied Computational Mathematics",
@@ -527,13 +572,13 @@
       },
       {
         "time": "9:30-10:30",
-        "subject": "Basic Electrical and Electronics Engineering",
-        "teacher": "Dr. Gaurav S",
+        "subject": "Data Structures using C",
+        "teacher": "Dr. Amol D",
         "room": "566"
       },
       {
         "time": "10:30-11:30",
-        "subject": "Library Hour",
+        "subject": "Office Hour",
         "teacher": "",
         "room": ""
       },
@@ -551,8 +596,8 @@
       },
       {
         "time": "1:30-2:30",
-        "subject": "Data Structures using C",
-        "teacher": "Dr. Amol D",
+        "subject": "Modern Computer Hardware",
+        "teacher": "Sahil Jadhav",
         "room": "566"
       },
       {
@@ -562,7 +607,7 @@
         "room": ""
       }
     ],
-    "Wednesday": [
+    "Thursday": [
       {
         "time": "8:30-10:30",
         "subject": "Data Structures using C Lab",
@@ -571,8 +616,8 @@
       },
       {
         "time": "10:30-11:30",
-        "subject": "Applied Computational Mathematics",
-        "teacher": "Dr. RishiKant R",
+        "subject": "Data Structures using C",
+        "teacher": "Dr. Amol D",
         "room": "566"
       },
       {
@@ -583,8 +628,8 @@
       },
       {
         "time": "12:30-1:30",
-        "subject": "Basic Electrical and Electronics Engineering",
-        "teacher": "Dr. Gaurav S",
+        "subject": "Fundamentals Web Technologies",
+        "teacher": "Ms. Shraddha Ghatol",
         "room": "566"
       },
       {
@@ -595,8 +640,8 @@
       },
       {
         "time": "2:30-3:30",
-        "subject": "Fundamentals Web Technologies",
-        "teacher": "Ms. Shraddha Ghatol",
+        "subject": "Basic Electrical and Electronics Engineering",
+        "teacher": "Dr. Gaurav S",
         "room": "566"
       },
       {
@@ -606,7 +651,7 @@
         "room": ""
       }
     ],
-    "Thursday": [
+    "Friday": [
       {
         "time": "8:30-9:30",
         "subject": "Applied Computational Mathematics",
@@ -615,8 +660,8 @@
       },
       {
         "time": "9:30-10:30",
-        "subject": "Data Structures using C",
-        "teacher": "Dr. Amol D",
+        "subject": "Basic Electrical and Electronics Engineering",
+        "teacher": "Dr. Gaurav S",
         "room": "566"
       },
       {
@@ -627,8 +672,8 @@
       },
       {
         "time": "11:30-12:30",
-        "subject": "Basic Electrical and Electronics Engineering",
-        "teacher": "Dr. Gaurav S",
+        "subject": "Modern Computer Hardware",
+        "teacher": "Sahil Jadhav",
         "room": "566"
       },
       {
@@ -639,8 +684,8 @@
       },
       {
         "time": "1:30-2:30",
-        "subject": "Modern Computer Hardware",
-        "teacher": "Sahil Jadhav",
+        "subject": "Data Structures using C-TUT",
+        "teacher": "Dr. Amol D",
         "room": "566"
       },
       {
@@ -650,7 +695,7 @@
         "room": ""
       }
     ],
-    "Friday": [
+    "Saturday": [
       {
         "time": "8:30-10:30",
         "subject": "Basic Electrical and Electronics Engineering Lab",
@@ -659,50 +704,6 @@
       },
       {
         "time": "10:30-11:30",
-        "subject": "Data Structures using C",
-        "teacher": "Dr. Amol D",
-        "room": "566"
-      },
-      {
-        "time": "11:30-12:30",
-        "subject": "Library Hour",
-        "teacher": "",
-        "room": ""
-      },
-      {
-        "time": "12:30-1:30",
-        "subject": "Fundamentals Web Technologies",
-        "teacher": "Ms. Shraddha Ghatol",
-        "room": "566"
-      },
-      {
-        "time": "1:30-2:30",
-        "subject": "Lunch",
-        "teacher": "",
-        "room": ""
-      },
-      {
-        "time": "2:30-3:30",
-        "subject": "Modern Computer Hardware",
-        "teacher": "Sahil Jadhav",
-        "room": "566"
-      },
-      {
-        "time": "3:30-4:30",
-        "subject": "Sports Hour",
-        "teacher": "",
-        "room": ""
-      }
-    ],
-    "Saturday": [
-      {
-        "time": "8:30-9:30",
-        "subject": "Applied Computational Mathematics",
-        "teacher": "Dr. RishiKant R",
-        "room": "566"
-      },
-      {
-        "time": "9:30-10:30",
         "subject": "IKS- Indian Science, Engineering & Technology",
         "teacher": "Mr. Maan Bardhan Kanth",
         "room": "566"
@@ -2695,6 +2696,663 @@
         "subject": "IKS- Indian Science, Engineering & Technology",
         "teacher": "Mr. Maan Bardhan Kanth",
         "room": "575"
+      }
+    ],
+    "Sunday": []
+  },
+  "E1": {
+    "Monday": [
+      {
+        "time": "8:30-9:30",
+        "subject": "Modern Computer Hardware",
+        "teacher": "Ms. Seema A Darekar",
+        "room": "523"
+      },
+      {
+        "time": "9:30-10:30",
+        "subject": "Fundamentals Web Technologies",
+        "teacher": "Mr. Anand Sontakke",
+        "room": "523"
+      },
+      {
+        "time": "10:30-11:30",
+        "subject": "Library Hour",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "11:30-12:30",
+        "subject": "Data Structures using C",
+        "teacher": "Mr. Ghansham Rathod",
+        "room": "523"
+      },
+      {
+        "time": "12:30-2:30",
+        "subject": "Basic Electrical and Electronics Engineering Lab",
+        "teacher": "Dr.Dipti C",
+        "room": "325"
+      },
+      {
+        "time": "2:30-3:30",
+        "subject": "Lunch",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "3:30-4:30",
+        "subject": "Sports Hour",
+        "teacher": "",
+        "room": ""
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "8:30-9:30",
+        "subject": "Office Hour",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "10:30-11:30",
+        "subject": "Basic Electrical and Electronics Engineering",
+        "teacher": "Dr.Dipti C",
+        "room": "523"
+      },
+      {
+        "time": "11:30-12:30",
+        "subject": "Library Hour",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "12:30-1:30",
+        "subject": "Applied Computational Mathematics",
+        "teacher": "Dr. Anuj K",
+        "room": "523"
+      },
+      {
+        "time": "2:30-3:30",
+        "subject": "Data Structures using C",
+        "teacher": "Mr. Ghansham Rathod",
+        "room": "523"
+      },
+      {
+        "time": "3:30-4:30",
+        "subject": "Modern Computer Hardware",
+        "teacher": "Ms. Seema A Darekar",
+        "room": "523"
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "8:30-9:30",
+        "subject": "Modern Computer Hardware",
+        "teacher": "Ms. Seema A Darekar",
+        "room": "523"
+      },
+      {
+        "time": "9:30-10:30",
+        "subject": "Basic Electrical and Electronics Engineering",
+        "teacher": "Dr.Dipti C",
+        "room": "523"
+      },
+      {
+        "time": "10:30-11:30",
+        "subject": "Library Hour",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "11:30-12:30",
+        "subject": "Applied Computational Mathematics",
+        "teacher": "Dr. Anuj K",
+        "room": "523"
+      },
+      {
+        "time": "12:30-2:30",
+        "subject": "Fundamentals Web Technologies Lab",
+        "teacher": "Mr. Anand Sontakke",
+        "room": "CC"
+      },
+      {
+        "time": "2:30-3:30",
+        "subject": "Lunch",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "3:30-4:30",
+        "subject": "Sports Hour",
+        "teacher": "",
+        "room": ""
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "8:30-9:30",
+        "subject": "Office Hour",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "10:30-11:30",
+        "subject": "Fundamentals Web Technologies",
+        "teacher": "Mr. Anand Sontakke",
+        "room": "523"
+      },
+      {
+        "time": "11:30-12:30",
+        "subject": "Library Hour",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "12:30-1:30",
+        "subject": "Applied Computational Mathematics",
+        "teacher": "Dr. Anuj K",
+        "room": "523"
+      },
+      {
+        "time": "2:30-3:30",
+        "subject": "Data Structures using C",
+        "teacher": "Mr. Ghansham Rathod",
+        "room": "523"
+      },
+      {
+        "time": "3:30-4:30",
+        "subject": "Basic Electrical and Electronics Engineering - TUT",
+        "teacher": "Dr.Dipti C",
+        "room": "523"
+      }
+    ],
+    "Friday": [
+      {
+        "time": "8:30-9:30",
+        "subject": "Fundamentals Web Technologies",
+        "teacher": "Mr. Anand Sontakke",
+        "room": "523"
+      },
+      {
+        "time": "9:30-10:30",
+        "subject": "Basic Electrical and Electronics Engineering",
+        "teacher": "Dr.Dipti C",
+        "room": "523"
+      },
+      {
+        "time": "10:30-11:30",
+        "subject": "Library Hour",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "11:30-12:30",
+        "subject": "Data Structures using C - TUT",
+        "teacher": "Mr. Ghansham Rathod",
+        "room": "523"
+      },
+      {
+        "time": "12:30-2:30",
+        "subject": "Data Structures using C Lab",
+        "teacher": "Mr. Ghansham Rathod",
+        "room": "353"
+      },
+      {
+        "time": "2:30-3:30",
+        "subject": "Lunch",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "3:30-4:30",
+        "subject": "Sports Hour",
+        "teacher": "",
+        "room": ""
+      }
+    ],
+    "Saturday": [
+      {
+        "time": "2:30-3:30",
+        "subject": "Applied Computational Mathematics - TUT",
+        "teacher": "Dr. Anuj K",
+        "room": "523"
+      }
+    ],
+    "Sunday": []
+  },
+  "E2": {
+    "Monday": [
+      {
+        "time": "8:30-9:30",
+        "subject": "Modern Computer Hardware",
+        "teacher": "Ms. Seema A Darekar",
+        "room": "523"
+      },
+      {
+        "time": "9:30-10:30",
+        "subject": "Fundamentals Web Technologies",
+        "teacher": "Mr. Anand Sontakke",
+        "room": "523"
+      },
+      {
+        "time": "10:30-11:30",
+        "subject": "Library Hour",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "11:30-12:30",
+        "subject": "Data Structures using C",
+        "teacher": "Mr. Ghansham Rathod",
+        "room": "523"
+      },
+      {
+        "time": "12:30-2:30",
+        "subject": "Data Structures using C Lab",
+        "teacher": "Mr. Ghansham Rathod",
+        "room": "353"
+      },
+      {
+        "time": "2:30-3:30",
+        "subject": "Lunch",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "3:30-4:30",
+        "subject": "Sports Hour",
+        "teacher": "",
+        "room": ""
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "8:30-9:30",
+        "subject": "Office Hour",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "10:30-11:30",
+        "subject": "Basic Electrical and Electronics Engineering",
+        "teacher": "Dr.Dipti C",
+        "room": "523"
+      },
+      {
+        "time": "11:30-12:30",
+        "subject": "Library Hour",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "12:30-1:30",
+        "subject": "Applied Computational Mathematics",
+        "teacher": "Dr. Anuj K",
+        "room": "523"
+      },
+      {
+        "time": "2:30-3:30",
+        "subject": "Data Structures using C",
+        "teacher": "Mr. Ghansham Rathod",
+        "room": "523"
+      },
+      {
+        "time": "3:30-4:30",
+        "subject": "Modern Computer Hardware",
+        "teacher": "Ms. Seema A Darekar",
+        "room": "523"
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "8:30-9:30",
+        "subject": "Modern Computer Hardware",
+        "teacher": "Ms. Seema A Darekar",
+        "room": "523"
+      },
+      {
+        "time": "9:30-10:30",
+        "subject": "Basic Electrical and Electronics Engineering",
+        "teacher": "Dr.Dipti C",
+        "room": "523"
+      },
+      {
+        "time": "10:30-11:30",
+        "subject": "Library Hour",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "11:30-12:30",
+        "subject": "Applied Computational Mathematics",
+        "teacher": "Dr. Anuj K",
+        "room": "523"
+      },
+      {
+        "time": "12:30-2:30",
+        "subject": "Basic Electrical and Electronics Engineering Lab",
+        "teacher": "Dr.Dipti C",
+        "room": "325"
+      },
+      {
+        "time": "2:30-3:30",
+        "subject": "Lunch",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "3:30-4:30",
+        "subject": "Sports Hour",
+        "teacher": "",
+        "room": ""
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "8:30-9:30",
+        "subject": "Office Hour",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "10:30-11:30",
+        "subject": "Fundamentals Web Technologies",
+        "teacher": "Mr. Anand Sontakke",
+        "room": "523"
+      },
+      {
+        "time": "11:30-12:30",
+        "subject": "Library Hour",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "12:30-1:30",
+        "subject": "Applied Computational Mathematics",
+        "teacher": "Dr. Anuj K",
+        "room": "523"
+      },
+      {
+        "time": "2:30-3:30",
+        "subject": "Data Structures using C",
+        "teacher": "Mr. Ghansham Rathod",
+        "room": "523"
+      },
+      {
+        "time": "3:30-4:30",
+        "subject": "Basic Electrical and Electronics Engineering - TUT",
+        "teacher": "Dr.Dipti C",
+        "room": "523"
+      }
+    ],
+    "Friday": [
+      {
+        "time": "8:30-9:30",
+        "subject": "Fundamentals Web Technologies",
+        "teacher": "Mr. Anand Sontakke",
+        "room": "523"
+      },
+      {
+        "time": "9:30-10:30",
+        "subject": "Basic Electrical and Electronics Engineering",
+        "teacher": "Dr.Dipti C",
+        "room": "523"
+      },
+      {
+        "time": "10:30-11:30",
+        "subject": "Library Hour",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "11:30-12:30",
+        "subject": "Data Structures using C - TUT",
+        "teacher": "Mr. Ghansham Rathod",
+        "room": "523"
+      },
+      {
+        "time": "12:30-2:30",
+        "subject": "Fundamentals Web Technologies Lab",
+        "teacher": "Mr. Anand Sontakke",
+        "room": "CC"
+      },
+      {
+        "time": "2:30-3:30",
+        "subject": "Lunch",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "3:30-4:30",
+        "subject": "Sports Hour",
+        "teacher": "",
+        "room": ""
+      }
+    ],
+    "Saturday": [
+      {
+        "time": "2:30-3:30",
+        "subject": "Applied Computational Mathematics - TUT",
+        "teacher": "Dr. Anuj K",
+        "room": "523"
+      }
+    ],
+    "Sunday": []
+  },
+  "E3": {
+    "Monday": [
+      {
+        "time": "8:30-9:30",
+        "subject": "Modern Computer Hardware",
+        "teacher": "Ms. Seema A Darekar",
+        "room": "523"
+      },
+      {
+        "time": "9:30-10:30",
+        "subject": "Fundamentals Web Technologies",
+        "teacher": "Mr. Anand Sontakke",
+        "room": "523"
+      },
+      {
+        "time": "10:30-11:30",
+        "subject": "Library Hour",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "11:30-12:30",
+        "subject": "Data Structures using C",
+        "teacher": "Mr. Ghansham Rathod",
+        "room": "523"
+      },
+      {
+        "time": "12:30-2:30",
+        "subject": "Fundamentals Web Technologies Lab",
+        "teacher": "Mr. Anand Sontakke",
+        "room": "CC"
+      },
+      {
+        "time": "2:30-3:30",
+        "subject": "Lunch",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "3:30-4:30",
+        "subject": "Sports Hour",
+        "teacher": "",
+        "room": ""
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "8:30-9:30",
+        "subject": "Office Hour",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "10:30-11:30",
+        "subject": "Basic Electrical and Electronics Engineering",
+        "teacher": "Dr.Dipti C",
+        "room": "523"
+      },
+      {
+        "time": "11:30-12:30",
+        "subject": "Library Hour",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "12:30-1:30",
+        "subject": "Applied Computational Mathematics",
+        "teacher": "Dr. Anuj K",
+        "room": "523"
+      },
+      {
+        "time": "2:30-3:30",
+        "subject": "Data Structures using C",
+        "teacher": "Mr. Ghansham Rathod",
+        "room": "523"
+      },
+      {
+        "time": "3:30-4:30",
+        "subject": "Modern Computer Hardware",
+        "teacher": "Ms. Seema A Darekar",
+        "room": "523"
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "8:30-9:30",
+        "subject": "Modern Computer Hardware",
+        "teacher": "Ms. Seema A Darekar",
+        "room": "523"
+      },
+      {
+        "time": "9:30-10:30",
+        "subject": "Basic Electrical and Electronics Engineering",
+        "teacher": "Dr.Dipti C",
+        "room": "523"
+      },
+      {
+        "time": "10:30-11:30",
+        "subject": "Library Hour",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "11:30-12:30",
+        "subject": "Applied Computational Mathematics",
+        "teacher": "Dr. Anuj K",
+        "room": "523"
+      },
+      {
+        "time": "12:30-2:30",
+        "subject": "Data Structures using C Lab",
+        "teacher": "Mr. Ghansham Rathod",
+        "room": "353"
+      },
+      {
+        "time": "2:30-3:30",
+        "subject": "Lunch",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "3:30-4:30",
+        "subject": "Sports Hour",
+        "teacher": "",
+        "room": ""
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "8:30-9:30",
+        "subject": "Office Hour",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "10:30-11:30",
+        "subject": "Fundamentals Web Technologies",
+        "teacher": "Mr. Anand Sontakke",
+        "room": "523"
+      },
+      {
+        "time": "11:30-12:30",
+        "subject": "Library Hour",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "12:30-1:30",
+        "subject": "Applied Computational Mathematics",
+        "teacher": "Dr. Anuj K",
+        "room": "523"
+      },
+      {
+        "time": "2:30-3:30",
+        "subject": "Data Structures using C",
+        "teacher": "Mr. Ghansham Rathod",
+        "room": "523"
+      },
+      {
+        "time": "3:30-4:30",
+        "subject": "Basic Electrical and Electronics Engineering - TUT",
+        "teacher": "Dr.Dipti C",
+        "room": "523"
+      }
+    ],
+    "Friday": [
+      {
+        "time": "8:30-9:30",
+        "subject": "Fundamentals Web Technologies",
+        "teacher": "Mr. Anand Sontakke",
+        "room": "523"
+      },
+      {
+        "time": "9:30-10:30",
+        "subject": "Basic Electrical and Electronics Engineering",
+        "teacher": "Dr.Dipti C",
+        "room": "523"
+      },
+      {
+        "time": "10:30-11:30",
+        "subject": "Library Hour",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "11:30-12:30",
+        "subject": "Data Structures using C - TUT",
+        "teacher": "Mr. Ghansham Rathod",
+        "room": "523"
+      },
+      {
+        "time": "12:30-2:30",
+        "subject": "Basic Electrical and Electronics Engineering Lab",
+        "teacher": "Dr.Dipti C",
+        "room": "325"
+      },
+      {
+        "time": "2:30-3:30",
+        "subject": "Lunch",
+        "teacher": "",
+        "room": ""
+      },
+      {
+        "time": "3:30-4:30",
+        "subject": "Sports Hour",
+        "teacher": "",
+        "room": ""
+      }
+    ],
+    "Saturday": [
+      {
+        "time": "2:30-3:30",
+        "subject": "Applied Computational Mathematics - TUT",
+        "teacher": "Dr. Anuj K",
+        "room": "523"
       }
     ],
     "Sunday": []
